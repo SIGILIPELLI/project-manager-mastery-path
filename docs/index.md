@@ -1,0 +1,98 @@
+# Project Manager Mastery Path
+
+A structured, module-wise project management training program that takes you
+from "what does a project manager actually do?" to leading enterprise PMOs
+and multi-million-dollar transformation programs — with real frameworks,
+templates, and worked examples in every module, and a hands-on deliverable
+at the end of each level.
+
+This track is **not** about coding — it's about the frameworks, artifacts,
+and judgment calls of professional project management: charters, schedules,
+risk registers, RACI charts, earned value reports, and governance models you
+can adapt directly to a real project.
+
+## How the program is organized
+
+| Level | Focus | Modules |
+|-------|-------|---------|
+| [Level 1 · Entry](level-1/index.md) | PM fundamentals, lifecycle, scope, schedule, budget, risk, stakeholders, communication, tools | 9 topics + 1 project |
+| [Level 2 · Intermediate](level-2/index.md) | Agile delivery, advanced scheduling, EVM, deeper risk/procurement/quality, change & team management | 9 topics + 1 project |
+| [Level 3 · Advanced](level-3/index.md) | Program & portfolio management, PMOs, scaling agile, advanced stakeholder work, project recovery | 9 topics + 1 project |
+| [Level 4 · Master](level-4/index.md) | Leading PMOs, enterprise portfolios, digital transformation, crisis leadership, executive governance | 9 topics + 1 capstone |
+
+## How to use this site
+
+- Work through each level in order — later modules assume earlier ones.
+- Every topic page includes a concrete framework or template (formatted as a
+  table or structured example, not code) plus a worked real-world example —
+  adapt them directly to your own project.
+- Each topic ends with an **Exercise** — a practical deliverable you produce
+  yourself, the same way you would on a real assignment.
+- Each level ends with a project that combines everything learned in that
+  level into a single real artifact (a charter, a sprint plan, a program
+  plan, a governance model).
+- Use the search bar (top of the page) to jump straight to a topic.
+
+Start here → [Level 1 · Entry](level-1/index.md)
+
+## What you'll need
+
+No special software is required — every template in this course is built
+around plain documents, spreadsheets, and diagrams you can create in any
+office suite (Google Docs/Sheets, Microsoft Office, or equivalents). Module 9
+of Level 1 introduces dedicated PM tools (Jira, Microsoft Project, Asana) as
+optional next steps once you understand the underlying concepts they
+automate.
+
+🎥 **Prefer video?** Watch the [Mastery Path video series](https://youtube.com/@sigilipelli) on YouTube — Shorts and full walkthroughs of these lessons.
+
+## More from the Mastery Path series
+
+Free, structured, module-wise training across 32 other languages and platforms:
+
+<div class="mastery-grid-wrap">
+<p class="mastery-grid-category">Languages</p>
+<div class="mastery-grid">
+  <a href="https://sigilipelli.github.io/python-mastery-path/">🐍 Python</a>
+  <a href="https://sigilipelli.github.io/java-mastery-path/">☕ Java</a>
+  <a href="https://sigilipelli.github.io/javascript-mastery-path/">🟨 JavaScript</a>
+  <a href="https://sigilipelli.github.io/typescript-mastery-path/">🔷 TypeScript</a>
+  <a href="https://sigilipelli.github.io/shell-mastery-path/">🐚 Shell/Bash</a>
+  <a href="https://sigilipelli.github.io/powershell-mastery-path/">💻 PowerShell</a>
+  <a href="https://sigilipelli.github.io/c-mastery-path/">🇨 C</a>
+  <a href="https://sigilipelli.github.io/cpp-mastery-path/">➕ C++</a>
+  <a href="https://sigilipelli.github.io/go-mastery-path/">🐹 Go</a>
+  <a href="https://sigilipelli.github.io/rust-mastery-path/">🦀 Rust</a>
+  <a href="https://sigilipelli.github.io/sql-mastery-path/">🗄️ SQL</a>
+  <a href="https://sigilipelli.github.io/ruby-mastery-path/">💎 Ruby</a>
+  <a href="https://sigilipelli.github.io/php-mastery-path/">🐘 PHP</a>
+  <a href="https://sigilipelli.github.io/kotlin-mastery-path/">🟣 Kotlin</a>
+  <a href="https://sigilipelli.github.io/swift-mastery-path/">🐦 Swift</a>
+  <a href="https://sigilipelli.github.io/dart-mastery-path/">🎯 Dart</a>
+  <a href="https://sigilipelli.github.io/scala-mastery-path/">🔴 Scala</a>
+  <a href="https://sigilipelli.github.io/r-mastery-path/">📊 R</a>
+</div>
+<p class="mastery-grid-category">Cloud Platforms</p>
+<div class="mastery-grid">
+  <a href="https://sigilipelli.github.io/aws-mastery-path/">☁️ AWS</a>
+  <a href="https://sigilipelli.github.io/azure-mastery-path/">☁️ Azure</a>
+  <a href="https://sigilipelli.github.io/gcp-mastery-path/">☁️ GCP</a>
+  <a href="https://sigilipelli.github.io/ibm-cloud-mastery-path/">☁️ IBM Cloud</a>
+  <a href="https://sigilipelli.github.io/adobe-mastery-path/">🎨 Adobe</a>
+</div>
+<p class="mastery-grid-category">AI / ML / LLM</p>
+<div class="mastery-grid">
+  <a href="https://sigilipelli.github.io/ai-ml-mastery-path/">🤖 AI/ML</a>
+  <a href="https://sigilipelli.github.io/llm-dev-mastery-path/">🧠 LLM Dev</a>
+  <a href="https://sigilipelli.github.io/rag-mastery-path/">📚 RAG</a>
+  <a href="https://sigilipelli.github.io/edge-ai-mastery-path/">📱 Edge AI</a>
+</div>
+<p class="mastery-grid-category">Embedded Systems</p>
+<div class="mastery-grid">
+  <a href="https://sigilipelli.github.io/embedded-mastery-path/">🔌 Embedded</a>
+  <a href="https://sigilipelli.github.io/embedded-linux-mastery-path/">🐧 Embedded Linux</a>
+  <a href="https://sigilipelli.github.io/embedded-python-mastery-path/">🐍 Embedded Python</a>
+  <a href="https://sigilipelli.github.io/freertos-mastery-path/">⏱️ FreeRTOS</a>
+  <a href="https://sigilipelli.github.io/s32k-mastery-path/">🔧 S32K</a>
+</div>
+</div>

@@ -1,0 +1,99 @@
+site_name: Project Manager Mastery Path
+site_description: A structured, module-wise project management training program from entry level to master level, with real frameworks and templates in every module.
+site_url: https://sigilipelli.github.io/project-manager-mastery-path/
+repo_url: https://github.com/SIGILIPELLI/project-manager-mastery-path
+repo_name: project-manager-mastery-path
+
+theme:
+  name: material
+  custom_dir: docs/overrides
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      permalink: true
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Home: index.md
+  - Privacy Policy: privacy.md
+  - "Level 1 · Entry":
+      - Overview: level-1/index.md
+      - "01 · What Is Project Management?": level-1/01-what-is-project-management.md
+      - "02 · Project Lifecycle Basics": level-1/02-project-lifecycle-basics.md
+      - "03 · Scope Management Basics": level-1/03-scope-management-basics.md
+      - "04 · Scheduling Basics": level-1/04-scheduling-basics.md
+      - "05 · Budget & Cost Basics": level-1/05-budget-cost-basics.md
+      - "06 · Risk Management Basics": level-1/06-risk-management-basics.md
+      - "07 · Stakeholder Management Basics": level-1/07-stakeholder-management-basics.md
+      - "08 · Communication Plans": level-1/08-communication-plans.md
+      - "09 · Tools Overview (Jira, MS Project, Asana)": level-1/09-tools-overview.md
+      - "10 · Project — Full Charter & Schedule": level-1/10-project-charter-schedule.md
+  - "Level 2 · Intermediate":
+      - Overview: level-2/index.md
+      - "01 · Agile Project Management": level-2/01-agile-project-management.md
+      - "02 · Advanced Scheduling": level-2/02-advanced-scheduling.md
+      - "03 · Earned Value Management Basics": level-2/03-earned-value-management.md
+      - "04 · Risk Management Deep Dive": level-2/04-risk-management-deep-dive.md
+      - "05 · Procurement Basics": level-2/05-procurement-basics.md
+      - "06 · Quality Management Basics": level-2/06-quality-management-basics.md
+      - "07 · Change Management for Projects": level-2/07-change-management.md
+      - "08 · Team Management & Conflict Resolution": level-2/08-team-management-conflict.md
+      - "09 · Reporting & Dashboards": level-2/09-reporting-dashboards.md
+      - "10 · Project — Agile Plan with Sprint Schedule": level-2/10-project-agile-sprint-plan.md
+  - "Level 3 · Advanced":
+      - Overview: level-3/index.md
+      - "01 · Program Management": level-3/01-program-management.md
+      - "02 · Portfolio Management Basics": level-3/02-portfolio-management-basics.md
+      - "03 · Advanced Risk & Issue Management": level-3/03-advanced-risk-issue-management.md
+      - "04 · Vendor & Contract Management": level-3/04-vendor-contract-management.md
+      - "05 · PMO Fundamentals": level-3/05-pmo-fundamentals.md
+      - "06 · Scaling Agile (SAFe, LeSS)": level-3/06-scaling-agile.md
+      - "07 · Advanced Stakeholder Management": level-3/07-advanced-stakeholder-management.md
+      - "08 · Project Recovery": level-3/08-project-recovery.md
+      - "09 · Advanced Metrics (EVM Deep Dive & Forecasting)": level-3/09-advanced-metrics.md
+      - "10 · Project — Program Plan for 3 Related Projects": level-3/10-project-program-plan.md
+  - "Level 4 · Master":
+      - Overview: level-4/index.md
+      - "01 · Leading PMOs": level-4/01-leading-pmos.md
+      - "02 · Enterprise Portfolio Management": level-4/02-enterprise-portfolio-management.md
+      - "03 · Digital Transformation Programs": level-4/03-digital-transformation-programs.md
+      - "04 · Crisis & Turnaround Project Leadership": level-4/04-crisis-turnaround-leadership.md
+      - "05 · Executive Reporting & Governance": level-4/05-executive-reporting-governance.md
+      - "06 · Building PM Culture & Capability": level-4/06-building-pm-culture-capability.md
+      - "07 · AI Tools for Project Management": level-4/07-ai-tools-for-pm.md
+      - "08 · Global/Distributed Team Project Management": level-4/08-global-distributed-teams.md
+      - "09 · Career Growth: PM to Program/Portfolio Director": level-4/09-career-growth-pm-to-director.md
+      - "10 · Capstone — Full Program Charter & Governance Model": level-4/10-capstone-program-charter-governance.md

@@ -1,3 +1,8 @@
+---
+title: "Project Management Course Free: Beginner to Master"
+description: "Free project management course from beginner to advanced -- real frameworks, templates, and a full charter project. Part of a 37-course free learning library."
+---
+
 # Project Manager Mastery Path
 
 A structured, module-wise project management training program that takes you

@@ -61,8 +61,19 @@ nav:
       - "08 · Communication Plans": level-1/08-communication-plans.md
       - "09 · Tools Overview (Jira, MS Project, Asana)": level-1/09-tools-overview.md
       - "10 · Project — Full Charter & Schedule": level-1/10-project-charter-schedule.md
+  - "Level 2 · Intermediate":
+      - Overview: level-2/index.md
+      - "01 · Agile Project Management": level-2/01-agile-project-management.md
+      - "02 · Advanced Scheduling": level-2/02-advanced-scheduling.md
+      - "03 · Earned Value Management Basics": level-2/03-earned-value-management.md
+      - "04 · Risk Management Deep Dive": level-2/04-risk-management-deep-dive.md
+      - "05 · Procurement Basics": level-2/05-procurement-basics.md
+      - "06 · Quality Management Basics": level-2/06-quality-management-basics.md
+      - "07 · Change Management for Projects": level-2/07-change-management.md
+      - "08 · Team Management & Conflict Resolution": level-2/08-team-management-conflict.md
+      - "09 · Reporting & Dashboards": level-2/09-reporting-dashboards.md
+      - "10 · Project — Agile Plan with Sprint Schedule": level-2/10-project-agile-sprint-plan.md
 # --- auto-pruned stub levels (see AdSense low-value-content fix) ---
 exclude_docs: |
-  level-2/*.md
   level-3/*.md
   level-4/*.md

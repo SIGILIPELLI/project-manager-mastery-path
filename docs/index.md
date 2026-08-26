@@ -22,8 +22,8 @@ can adapt directly to a real project.
 |-------|-------|---------|
 | [Level 1 · Entry](level-1/index.md) | PM fundamentals, lifecycle, scope, schedule, budget, risk, stakeholders, communication, tools | 9 topics + 1 project |
 | [Level 2 · Intermediate](level-2/index.md) | Agile delivery, advanced scheduling, EVM, deeper risk/procurement/quality, change & team management | 9 topics + 1 project |
-| Level 3 · Advanced (coming soon) | Program & portfolio management, PMOs, scaling agile, advanced stakeholder work, project recovery | 9 topics + 1 project |
-| Level 4 · Master (coming soon) | Leading PMOs, enterprise portfolios, digital transformation, crisis leadership, executive governance | 9 topics + 1 capstone |
+| [Level 3 · Advanced](level-3/index.md) | Program & portfolio management, PMOs, scaling agile, advanced stakeholder work, project recovery | 9 topics + 1 project |
+| [Level 4 · Master](level-4/index.md) | Leading PMOs, enterprise portfolios, digital transformation, crisis leadership, executive governance | 9 topics + 1 capstone |
 
 ## How to use this site
 

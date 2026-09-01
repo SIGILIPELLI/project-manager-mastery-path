@@ -1,8 +1,8 @@
 site_name: Project Manager Mastery Path
 site_description: A structured, module-wise project management training program from entry level to master level, with real frameworks and templates in every module.
-site_url: https://sigilipelli.github.io/project-manager-skillmastery/
-repo_url: https://github.com/SIGILIPELLI/project-manager-skillmastery
-repo_name: project-manager-skillmastery
+site_url: https://sigilipelli.github.io/project-manager-mastery-path/
+repo_url: https://github.com/SIGILIPELLI/project-manager-mastery-path
+repo_name: project-manager-mastery-path
 
 theme:
   name: material

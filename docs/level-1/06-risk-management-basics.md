@@ -118,6 +118,27 @@ insurance against a downside that was over five times as expensive to
 absorb after the fact — which is the general pattern that makes proactive
 risk management worth the up-front time it costs.
 
+## How It Actually Works
+
+A probability/impact matrix isn't just a visual sorting tool — the risk
+score it produces, `Score = Probability × Impact`, is a simplified **Expected
+Monetary Value (EMV)** calculation, the same math used quantitatively in
+Level 2. If probability and impact are each scored 1–5, a risk rated
+(4, 4) = 16 "should" outrank one rated (5, 2) = 10 on the heat map, but that
+ordinal multiplication silently distorts real dollar risk: a 20% chance of a
+$500,000 loss (EMV = $100,000) can rate lower on a 1–5 heat map than an 80%
+chance of a $50,000 loss (EMV = $40,000) if the ordinal buckets are drawn
+carelessly, even though the first is 2.5× worse in real expected-dollar terms.
+This is exactly why qualitative scoring is a **triage** step, not a final
+answer — it exists to cheaply rank dozens of risks so you know which handful
+deserve the more expensive quantitative EMV or Monte Carlo treatment (Level
+2 Module 4, Level 3 Module 3). The RAID log's four categories map to four
+different control actions with different mechanics: Risks are managed by
+changing probability or impact *before* they occur, Issues (materialized
+risks) are managed by containment and recovery cost *after* the fact, which
+is why an issue's true cost is always closer to its full impact than its
+pre-event EMV — the probability term has collapsed to 1.
+
 ## Exercise
 
 For the project you've been building through this level's exercises,

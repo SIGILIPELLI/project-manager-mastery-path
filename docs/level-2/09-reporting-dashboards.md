@@ -204,6 +204,26 @@ mid-project without saying so on the report.** A metric whose definition
 moves silently is worse than no metric, because it looks comparable when it
 is not.
 
+## How It Actually Works
+
+RAG thresholds that "mean something" are statistical control limits applied
+to project metrics the same way Module 6's control charts apply them to
+defect data: a threshold set at `CPI/SPI < 0.90 → Red` isn't an arbitrary
+round number, it should be calibrated against the **historical variance of
+completed projects of similar size** in your organization — a threshold too
+tight (Red at 0.98) generates false alarms and trains stakeholders to ignore
+the dashboard; a threshold too loose (Red at 0.70) means real trouble hides
+in Amber for months. Milestone trend analysis works because a milestone
+date, re-forecast at every reporting period, produces a **time series whose
+slope is diagnostic**: a flat line (each report re-forecasts the same date)
+signals a stable plan, a line that consistently drifts later by roughly the
+same amount each period signals a systemic, recurring cause (not a one-off),
+and a line drifting later by an accelerating amount is the leading indicator
+of exactly the kind of variance that triggers a Level 3 Module 8 recovery
+review — long before EVM's own lagging cost/schedule indices would show the
+same trouble, because milestone-date slippage is a *leading* indicator while
+CPI/SPI are *lagging* indicators computed from work already done.
+
 ## Exercise
 
 Design the reporting for a real project.

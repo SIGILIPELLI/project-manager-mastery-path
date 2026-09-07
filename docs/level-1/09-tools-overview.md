@@ -118,6 +118,27 @@ MS Project for the sprint-based software work, would have been a mismatch
 in both directions: forcing a schedule-first tool onto iterative work, or an
 issue-tracker onto a project that lives and dies by its critical path.
 
+## How It Actually Works
+
+A Kanban board (Jira's core model) is a physical implementation of **Little's
+Law**: `Average items in progress = Arrival rate × Average time in system`,
+rearranged as `Cycle time = WIP / Throughput`. This is why WIP limits — a
+column configured to hold at most 3 cards — mechanically *reduce* the average
+time any single item takes to finish, even though it feels counterintuitive
+to cap capacity: with throughput held roughly constant, cutting WIP directly
+cuts cycle time by the same ratio. A burndown chart (used across all three
+tools) is just a plot of `Remaining work = Total scope − Cumulative work
+completed`, and its slope is your actual velocity; the chart's real value is
+that a *straight* declining line predicts an on-time finish, while a line
+that flattens mid-sprint is showing new work being added at roughly the same
+rate as work being completed — scope creep visible as a graph shape, not a
+verbal report. MS Project's Gantt view is the forward/backward-pass network
+from Module 4 rendered automatically: every time you change one task's
+duration, the tool re-runs the topological sort across the whole dependency
+graph and re-draws every downstream bar — which is also why a badly-modeled
+dependency (missing or wrongly-typed) silently produces a wrong critical
+path that looks perfectly plausible on the chart.
+
 ## Exercise
 
 For the project you've been developing through this level's exercises,

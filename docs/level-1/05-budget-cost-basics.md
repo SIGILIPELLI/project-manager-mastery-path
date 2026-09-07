@@ -103,6 +103,26 @@ reserve is meant to be *spent down* as risks resolve (if the API
 integration finishes on time, that $6,000 portion is released, not kept as
 slush).
 
+## How It Actually Works
+
+Estimate ranges aren't arbitrary — they follow the **cone of uncertainty**, a
+funnel that narrows as the project progresses because you're replacing
+assumptions with facts. A Rough Order of Magnitude (ROM) estimate, made
+during Initiation with almost no design detail, is conventionally accurate to
+**−25% / +75%** — meaning a $100,000 ROM estimate has a credible true cost
+anywhere from $75,000 to $175,000. A Definitive estimate, made after detailed
+design, tightens to **−5% / +10%** ($95,000–$110,000) because most of the
+unknowns have been resolved. Contingency reserve is not a padding percentage
+picked by feel; it should be the **probability-weighted sum of identified
+risk impacts**: if Risk A has a 30% chance of costing $20,000 and Risk B has
+a 10% chance of costing $50,000, the reserve for those two risks alone is
+`(0.30 × $20,000) + (0.10 × $50,000) = $6,000 + $5,000 = $11,000` — this is
+the Expected Monetary Value (EMV) technique covered fully in Level 1 Module 6
+and Level 2 Module 4. Management reserve, by contrast, covers *unknown*
+unknowns and is conventionally a flat percentage (5–10%) of the total
+baseline precisely because, by definition, no specific risk can be quantified
+against it.
+
 ## Exercise
 
 For the project you scoped in Module 3's exercise, build a bottom-up cost

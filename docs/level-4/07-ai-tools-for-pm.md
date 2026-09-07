@@ -77,6 +77,25 @@ this level's other modules are about.
 | Who is accountable if the AI-assisted output is wrong? | Must be a named human, every time |
 | Does relying on this tool erode a skill the PM organisation needs to keep (module 06's capability framework)? | An associate PM who never learns to draft a risk register manually because a tool always does it first arrives at Senior PM with a skill gap |
 
+## How It Actually Works
+
+The delegate/assist/reserve framework maps onto a genuine **error-cost
+asymmetry**, not a comfort preference: tasks are safe to fully delegate to AI
+specifically when an error is cheap to detect and cheap to correct (a
+first-draft status report summary that a human reviews before sending — the
+review step catches errors at near-zero incremental cost), while tasks
+belong in "reserve" specifically when an error is expensive, hard to detect,
+or both (a stakeholder risk assessment where a subtly wrong probability
+estimate flows silently into an EMV calculation and compounds through every
+later decision built on that reserve number, per Level 3 Module 3's
+calibration-drift mechanic). The common failure modes in this module —
+confident wrong numbers, fabricated precedent — are specifically dangerous
+in PM contexts because they enter a workflow (EVM, risk registers, contract
+terms) that already assumes numeric inputs are ground truth and propagates
+them without a validation step, which is exactly the same "garbage in,
+silently compounds" mechanism as a miscalibrated risk register or an
+uncorrected estimating bias from Level 3 Module 8.
+
 ## Exercise
 
 Your PMO is evaluating whether to let an AI tool auto-generate the weekly

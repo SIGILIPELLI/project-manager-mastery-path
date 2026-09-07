@@ -83,6 +83,26 @@ Fixing only the trigger (restart, add more connections) guarantees a repeat
 under the next load spike; the real fix changes the gate that let an
 untested system reach production load in the first place.
 
+## How It Actually Works
+
+Incident command structures exist because normal project decision-making
+(consensus, escalation through the usual reporting chain) has a **latency
+that's tolerable for routine variance and fatal during a genuine crisis** —
+every additional approval hop adds a fixed delay (Level 1 Module 8's
+communication-hop degradation, under time pressure), so a pre-defined
+incident commander with pre-authorized decision rights isn't a
+power-grab, it's removing hop count from the critical path of the response
+itself, exactly the way Level 2 Module 2 removes float from a schedule's
+critical path by eliminating unnecessary sequential dependencies. The
+root-cause-vs-trigger distinction in a post-incident review is a **necessary
+vs. sufficient condition** analysis: a trigger is a sufficient condition
+that precipitated the specific incident on the specific day (a bad deploy),
+while a root cause is a necessary, standing condition that made the system
+vulnerable to *some* trigger eventually (no deploy-rollback capability) —
+fixing only the trigger leaves the necessary condition in place and
+statistically guarantees a different trigger produces the same class of
+incident later.
+
 ## Exercise
 
 Your organisation's customer-facing app goes down completely during a major

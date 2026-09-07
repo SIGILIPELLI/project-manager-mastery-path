@@ -84,6 +84,21 @@ the risk is scaling headcount before scaling trust — adding a Governance
 Lead to enforce gates nobody yet believes in just adds a second person the
 organisation routes around.
 
+## How It Actually Works
+
+"Authority without formal power" has a specific organizational-behavior
+mechanism behind it: influence in a matrixed organization runs largely on
+**accumulated credibility capital**, which behaves like a resource that is
+earned in small increments (a forecast that turned out accurate, a risk
+flagged before it materialized) and spent in large ones (one high-visibility
+miss can erase months of accumulated trust). This asymmetry — slow to build,
+fast to lose — is the actual reason a PMO's first 90 days matter
+disproportionately: early wins compound into a credibility balance that
+later, larger asks can draw against, while an early visible miss forces the
+PMO to rebuild from zero under heightened scrutiny, which is measurably
+slower than building from zero under neutral scrutiny because every
+subsequent claim now gets extra verification before anyone acts on it.
+
 ## Exercise
 
 You inherit a PMO where the dashboard is technically accurate but nobody in

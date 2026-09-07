@@ -113,6 +113,28 @@ without pushing the launch date.
 | Customer Support | Low | High | Keep informed, gather input | Bi-weekly demo, included in soft-launch review |
 | Executive leadership | High | Low | Keep satisfied | Single summary at kickoff and at full rollout |
 
+## How It Actually Works
+
+Pulling the referral-program deliverables together exposes a mechanic that's
+invisible when each artifact is studied alone: the **schedule baseline and
+cost baseline are the same underlying data, viewed through two different
+lenses**. Each task in the network carries both a duration and a resource
+cost-per-day; summing durations along the critical path gives the project
+end date, while summing (duration × daily burn rate) across *all* tasks —
+critical and non-critical alike — gives the budget. This is why a change
+that only affects a non-critical task (say, adding scope to the low-float
+"training material" task) can leave the finish date untouched while still
+moving the budget, and conversely why crashing the critical path (Level 2)
+moves the finish date while adding cost without touching total scope. The
+risk register's EMV entries should sum into the very same budget as a
+**contingency reserve line** — not as buffer stated separately from "the
+real budget," because on a fully-integrated baseline the approved budget
+*is* base cost plus contingency reserve, and only management reserve sits
+outside the PM's baseline authority. A charter that doesn't wire these three
+numbers together (schedule total, cost baseline, EMV-derived reserve) into
+one consistent model isn't actually integrated — it's three separate
+documents that happen to describe the same project.
+
 ## Exercise
 
 Produce your own complete Level 1 capstone for a project of your choice —

@@ -170,6 +170,30 @@ it is already in the budget.
     self-assessment is worse than no report, because it carries false
     authority.
 
+## How It Actually Works
+
+EVM's real power is that CPI and SPI are **not independent status opinions,
+they're both ratios against the same planned-value curve**, which is why
+they can and do move in opposite directions: `SPI = EV/PV` measures schedule
+*efficiency* (are you burning through planned scope on pace) while `CPI =
+EV/AC` measures cost *efficiency* (are you spending what that scope should
+cost) — a project can be running SPI = 1.10 (ahead of schedule) and CPI =
+0.80 (over budget) simultaneously, which happens exactly when a team is
+throwing extra, expensive resources at the schedule to hit a date, buying
+schedule performance with cost performance. The **EAC formula selection
+itself is a statistical judgment call**, not a lookup: `EAC = AC + (BAC−EV)`
+assumes future work reverts to the *planned* rate (use only if the current
+variance was a one-off, non-recurring cause), while `EAC = BAC/CPI` assumes
+the *current* cost-performance trend continues unchanged for all remaining
+work (use when the cause is systemic — e.g., underpriced labor rates that
+won't improve) — picking the wrong one is choosing the wrong statistical
+model for how a variance propagates forward, not a matter of preference.
+TCPI, `(BAC−EV)/(BAC−AC)`, is the algebraic answer to "what CPI must every
+future dollar achieve to still hit budget" — when TCPI exceeds roughly 1.10,
+it's a mathematical statement that recovery within budget requires
+efficiency the team has not yet demonstrated, i.e. a rebaseline is likely
+warranted, not a management failure.
+
 ## Exercise
 
 Set up EVM for a project of your own with at least eight work packages.

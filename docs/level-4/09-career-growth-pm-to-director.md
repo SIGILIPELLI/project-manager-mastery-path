@@ -58,6 +58,26 @@ operating and creating value **above** the single-project level, not just
 excelling within it — that's the actual gap a promotion committee is
 checking for, whether or not they phrase it that way.
 
+## How It Actually Works
+
+The over-indexing trap has a measurable signature: a newly-promoted director
+who continues spending time proportional to their *old* role's activity mix
+(deep in individual project schedules and risk registers) rather than their
+*new* role's required mix (portfolio-level pattern recognition across many
+projects at once) is running a **queueing-theory bottleneck on themselves**
+— their own attention becomes the single constrained resource that every
+project below them now waits on, the identical dynamic Module 5's exception-
+reporting section describes for executive bandwidth, just self-inflicted one
+level down. The self-assessment for this transition works by comparing
+**time-allocation data against the target role's ideal allocation** (a
+director should spend materially more time in stakeholder-influence and
+portfolio-pattern-recognition activities and materially less in
+task-level EVM/schedule mechanics than a PM), which converts "am I ready" from
+a subjective feeling into the same gap-vector measurement Module 6 uses for
+competency development — a director candidate whose actual weekly calendar
+still resembles a senior PM's calendar has a diagnosable, closeable gap, not
+an unfixable trait.
+
 ## Exercise
 
 You are a Senior PM being considered for a Program Director role. In your

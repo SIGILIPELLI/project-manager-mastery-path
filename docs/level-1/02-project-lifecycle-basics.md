@@ -128,6 +128,25 @@ months. Walking the lifecycle:
    pre-provisioned — feeding directly into the next relocation this company
    does.
 
+## How It Actually Works
+
+The reason phase gates exist is a cost curve, not a bureaucratic preference:
+the cost to fix a defect roughly **multiplies by 10 at each phase boundary**
+it crosses undetected — a requirements error caught during Initiation costs
+roughly $1 to fix (a conversation), the same error caught during Planning
+costs ~$10 (rework of a design document), during Execution ~$100 (rework of
+built product), and after Closure/in production ~$1,000+ (a live incident,
+customer impact, and a patch release). This is why exit criteria exist: they
+are checkpoints that force detection *before* the multiplier compounds again.
+Plotted over time, a project's **cumulative cost curve is an S-curve**, not a
+straight line — spending is slow during Initiation/Planning (low headcount,
+mostly analysis), steepens sharply through Execution (peak burn rate as the
+full team is engaged), and flattens again in Closure. The inflection points
+of that S-curve are exactly where a phase-gate review should sit, because
+that's where the cost of being wrong is about to jump to the next order of
+magnitude — reviewing at the wrong point (e.g., deep into Execution) means
+you're gating after the expensive commitment, not before it.
+
 ## Exercise
 
 Pick a real or hypothetical project (it can be small — planning a

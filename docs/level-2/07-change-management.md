@@ -151,6 +151,27 @@ loses credibility immediately.
     but "does this move the end date?" — and only the critical path can
     answer that.
 
+## How It Actually Works
+
+The change control workflow's approval-authority tiers exist to solve a
+**queueing problem**, not a political one: if every change request, from a
+one-line wording fix to a $200,000 scope addition, had to route through the
+same CCB, the board becomes the bottleneck and average change-approval
+latency grows without bound as request volume rises (the same throughput-vs-
+WIP relationship from Level 1 Module 9's Little's Law). Tiering by dollar/
+schedule impact — a PM can approve changes under a threshold, only larger
+ones go to committee — is a load-balancing strategy that keeps the
+high-stakes queue short precisely by routing low-stakes requests around it.
+On the organizational-change side, resistance isn't a fixed trait of people,
+it follows a predictable **adoption curve** (Rogers' diffusion-of-innovation
+shape): roughly 2.5% Innovators, 13.5% Early Adopters, 34% Early Majority,
+34% Late Majority, 16% Laggards — and the mechanical implication is that a
+rollout strategy targeting the *wrong* segment fails predictably: pushing
+hard on Late Majority resisters before Early Majority has visibly adopted
+wastes effort, because Late Majority's primary decision input is social
+proof from peers who've already switched, not the change argument itself —
+they need to *see* the Early Majority succeed, not hear the pitch again.
+
 ## Exercise
 
 Build a complete change management approach for a project of your own.

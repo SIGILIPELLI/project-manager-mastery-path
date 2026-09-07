@@ -114,6 +114,26 @@ blocked waiting on a UI design that was quietly eating all its float. The
 lesson: the critical path isn't fixed at kickoff — it has to be
 re-evaluated any time a task's actual progress deviates from plan.
 
+## How It Actually Works
+
+A dependency network is formally a **directed acyclic graph (DAG)**: each
+task is a node, each dependency is a directed edge, and "acyclic" is not
+optional — if Task B depends on Task A and Task A (even transitively) depends
+on Task B, no valid schedule exists at all, and scheduling software will
+throw a circular-dependency error rather than silently computing a wrong
+date. Finding the finish date is a **topological sort followed by a single
+forward pass**: process nodes only after all their predecessors are
+processed, tracking `finish[node] = max(finish[predecessor] for predecessor
+in dependencies) + duration`. This is why adding a single dependency between
+two previously-parallel tasks can suddenly change the project end date even
+though no task's own duration changed — you've merged two independent paths
+through the graph into one, and the new critical path is `max()` of the two
+former paths rather than the shorter of the two running in parallel. A Gantt
+chart is just a visual rendering of this graph's forward-pass solution laid
+against a calendar axis; the bars' positions are computed, not drawn by
+judgment. (Level 2's Advanced Scheduling module runs the full forward **and**
+backward pass to get float, not just the finish date.)
+
 ## Exercise
 
 Using the four-task example structure above (a small set of dependent

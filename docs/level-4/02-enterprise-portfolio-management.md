@@ -85,6 +85,24 @@ An enterprise PMO's distinct value here is exactly this aggregation step:
 no single BU portfolio board can see that its "medium" cloud-outage risk is
 one of four identical bets on the same infrastructure.
 
+## How It Actually Works
+
+Cross-business-unit score normalization is a **z-score standardization
+problem**: if BU-A's project scorers rate everything 6-9 out of 10 (lenient)
+and BU-B's raters use the full 1-10 range honestly, comparing raw scores
+cross-BU systematically favors BU-A's mediocre projects over BU-B's good
+ones. The fix is normalizing each project's score against its own BU's score
+**distribution**, `z = (score − BU_mean) / BU_stdev`, before ranking across
+the enterprise portfolio — this is the same normalization math underlying
+standardized testing, applied to project prioritization instead. Staged
+capital allocation (funding a tranche now, more only if a gate is passed)
+is, in financial terms, a **real option**: the enterprise is paying a small
+premium (the first tranche) for the right, not the obligation, to invest the
+rest later once uncertainty resolves, which mathematically dominates
+committing 100% of capital up front whenever the project's true value has
+significant variance — the option value comes specifically from being able
+to walk away cheaply if the first stage reveals bad news.
+
 ## Exercise
 
 Three business units report their top project scores: BU X scores its top

@@ -106,6 +106,26 @@ otherwise get it, frames it against the specific risk already on record,
 and puts a real decision in front of them while there's still time to act
 on it — which is the entire point of a communication plan.
 
+## How It Actually Works
+
+The number of potential communication channels on a team is not linear in
+headcount — it's **combinatorial**: `n(n-1)/2` pairwise links for n people. A
+5-person team has 10 potential channels; double the team to 10 people and
+the channels don't double, they nearly quadruple to 45; a 20-person team has
+190. This is the actual mechanism behind "communication plans matter more as
+teams grow" — it is not a vague social observation, it is quadratic growth
+against linear headcount growth, and it is why large projects deliberately
+collapse the graph with **hub-and-spoke structures** (a status report to one
+PM who redistributes, rather than 190 people trying to stay in sync
+pairwise) and fixed cadences (a weekly sync replaces N ad-hoc conversations
+with one scheduled one). Communication also degrades with each hop through
+Shannon's basic noise model: information passed through an intermediary
+loses fidelity at each retransmission (mishearing, compression, selective
+emphasis), so a message passed sponsor → PM → team lead → developer has
+survived three lossy channels before it reaches the person doing the work —
+which is the mechanical reason RACI's single "Accountable" owner exists: it
+minimizes hop count for any decision that actually needs to move.
+
 ## Exercise
 
 Build a communication plan table (audience, content, format, frequency,

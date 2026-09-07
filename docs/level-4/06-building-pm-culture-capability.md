@@ -75,6 +75,24 @@ retention tool: PMs who can't see a next level in a legible framework leave
 for organisations that offer one, independent of how good the actual work
 is.
 
+## How It Actually Works
+
+A competency framework's gap analysis is formally a **vector-distance
+calculation**: each competency is a dimension, each person's current level
+and each role's required level are points in that multi-dimensional space,
+and the "gap" driving a development plan is the vector difference between
+them, `Gap_i = Required_i − Current_i` per competency — which is why a
+naive single "readiness score" (averaging all dimensions) is misleading:
+two people can have identical average scores while one has small, easily-
+closed gaps spread across several competencies and the other has one deep,
+hard-to-close gap in a single critical dimension, and only the per-dimension
+vector, not the scalar average, tells you which. Career pathing built on
+this framework works because it converts an otherwise subjective "are they
+ready for promotion" judgment into a **repeatable measurement against a
+fixed target**, the same shift Level 3 Module 9's TCPI makes for cost
+performance — a target-referenced measurement, re-taken periodically, shows
+trend and rate of closure, not just a single point-in-time opinion.
+
 ## Exercise
 
 Your organisation's skills audit shows 25 PMs: 18 at Level 1–2 on

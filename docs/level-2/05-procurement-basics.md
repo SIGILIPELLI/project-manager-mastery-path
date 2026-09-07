@@ -153,6 +153,30 @@ unqualified bidder cannot score its way in.
     criterion, and interface is named. An hour spent here is worth more than
     any amount of contract management afterwards.
 
+## How It Actually Works
+
+The FPIF (Fixed Price Incentive Fee) payout curve is a **piecewise linear
+function of actual cost**, and its mechanics explain exactly why contract
+type shifts risk: below the Point of Total Assumption (PTA), the buyer and
+seller share cost overruns at the negotiated share ratio (e.g. 80/20 — buyer
+absorbs 80 cents of every dollar over target), so `Seller payment = Target
+Cost + Target Fee − ShareRatio_seller × (Actual − Target)` up to the ceiling
+price; once actual cost crosses the ceiling, the contract flips to
+effectively Firm-Fixed-Price and the **seller absorbs 100%** of every
+additional dollar. `PTA = ((Ceiling − Target Price) / Buyer's Share) +
+Target Cost` is the exact cost level at which that flip happens, and it's a
+number every vendor calculates privately before signing — which is why
+vendor behavior often changes sharply as actual cost approaches PTA (increased
+scrutiny of change orders, resistance to scope additions) even though nothing
+in the contract language itself changed. Weighted vendor scoring is a
+straightforward linear model, `Score = Σ(criterion_weight × criterion_score)`,
+but its hidden failure mode is **weight sensitivity**: because scores are
+bounded (e.g. 1–5) while weights are continuous, a vendor's total ranking can
+flip based on a 5-percentage-point change in a single weight — always
+re-running the model with ±10% weight perturbations before finalizing a
+selection reveals whether the decision is robust or an artifact of one
+weighting choice.
+
 ## Exercise
 
 Plan a real procurement for a project of your own.

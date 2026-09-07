@@ -94,6 +94,27 @@ caught this stakeholder before the register was ever finalized — which is
 exactly why identification deserves a deliberate, structured pass rather
 than relying on whoever happens to be in the kickoff meeting.
 
+## How It Actually Works
+
+The power/interest grid is a 2×2 partition of a continuous space, and the
+quadrant boundaries function as **decision thresholds** for engagement
+effort, not just labels: a stakeholder scoring (power=8, interest=3) on a
+1–10 scale sits in "Keep Satisfied" and gets periodic high-level updates,
+while (power=8, interest=8) sits in "Manage Closely" and gets frequent
+detailed engagement — the *same* power score produces a completely different
+communication cost depending purely on which side of the interest threshold
+they fall on. The more rigorous version used from Level 3 onward is the
+**engagement assessment matrix**, which plots each stakeholder's *current*
+engagement level (Unaware, Resistant, Neutral, Supportive, Leading) against
+their *desired* level for project success, and the gap between the two
+columns is literally your stakeholder-management to-do list — a stakeholder
+who is currently Neutral but needs to be Leading requires active,
+resource-consuming engagement; one already at their desired level requires
+only maintenance. Engagement level itself isn't static — it decays without
+reinforcement (a Supportive sponsor who hears nothing for three months drifts
+toward Neutral), which is the real reason a stakeholder register needs
+scheduled re-assessment, not a one-time pass at kickoff.
+
 ## Exercise
 
 For the project you've been building through this level's exercises, list

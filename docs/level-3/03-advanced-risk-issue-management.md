@@ -116,6 +116,26 @@ A reserve burning down faster than the project's percent-complete is an
 early warning independent of EVM — it means realised risk is outpacing plan
 even if cost and schedule variance still look fine.
 
+## How It Actually Works
+
+Reserve burn-down tracking treats the contingency reserve itself as a
+**stochastic process**, not a static number: at any point in the project,
+the *expected* remaining reserve need is the sum of EMVs for risks that
+haven't yet resolved, while the *actual* reserve balance is starting reserve
+minus dollars already drawn — the gap between those two numbers is a live
+signal. If actual drawdown is running ahead of the expected-value curve
+derived from the register (say, 60% of reserve spent at a point where the
+register predicted only 30% should have been needed by now), that's
+statistical evidence the register's probability or impact estimates were
+**systematically too optimistic**, not just bad luck on one risk — bad luck
+on one risk shows up as one register-vs-actual mismatch; a curve running
+ahead across many risks shows up as a calibration problem across the whole
+register, and the correct response is re-calibrating remaining probabilities
+upward, not just replenishing the reserve. This is the same "if we ran this
+risk 10 times" calibration check from Level 2 Module 4, applied
+retrospectively against real drawdown data instead of prospectively against
+intuition.
+
 ## Exercise
 
 A project has three risks: (1) 25% probability, $80,000 impact; (2) 50%

@@ -118,6 +118,27 @@ different levels of upfront certainty. Recognizing which shape a project has
 judgment calls a PM makes, and it's a theme this course returns to
 repeatedly.
 
+## How It Actually Works
+
+The "triple constraint" isn't a diagram, it's a constraint-satisfaction
+relationship: `Cost = f(Scope, Time, Quality)` where tightening any one
+variable forces at least one other to move, because labor hours are the
+common currency underneath all three. If scope grows by X story points and
+your team's throughput is fixed, either time must grow by X/throughput, or
+you add cost (more people — subject to Brooks's Law, below), or quality
+drops (defects rise because verification steps get compressed under the same
+schedule). PMBOK's five process groups (Initiating, Planning, Executing,
+Monitoring & Controlling, Closing) are not a waterfall sequence despite how
+they're drawn — they're **concurrent state machines** that overlap for the
+whole project lifetime: Monitoring & Controlling runs continuously from day
+one, and re-Planning fires as an event triggered by variance crossing a
+threshold, not on a calendar. Brooks's Law itself has a mechanism, not just a
+slogan: adding a person to a late project adds `n(n-1)/2` new communication
+pathways (5 people = 10 links, 9 people = 36 links) and consumes ramp-up time
+from the existing team who must train them — so the short-term effect of
+adding headcount is negative until the new person's net output exceeds their
+communication overhead plus their trainers' lost time.
+
 ## Exercise
 
 Pick two initiatives you know about — from your own work, school, a

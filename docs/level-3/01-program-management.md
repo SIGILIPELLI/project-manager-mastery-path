@@ -118,6 +118,26 @@ register:
 | PR-03 | Issue | Two projects both assumed they'd get the same 2 senior QA engineers in week 9 | Collections workflow, GDPR data residency | Medium | Program manager | Reallocate one from Self-serve portal (has 1-week slack) |
 | PR-04 | Dependency | Collections workflow blocked entirely until Billing API rework ships events | Collections workflow | Critical | Program manager | Zero slack — track weekly, no buffer available |
 
+## How It Actually Works
+
+A program's dependency map is a graph, like a schedule network, but the
+edges carry a different meaning: a **project-to-project dependency edge**
+means one project's *output* is another's *input*, so the "critical path"
+at program level isn't computed from task durations directly — it's computed
+from **each dependent project's finish-date distribution** (its own PERT σ
+from Level 2 Module 2), because a downstream project can't even start its
+own critical-path clock until the upstream deliverable actually lands, with
+whatever schedule risk that upstream project itself carries. This is why
+program-level schedule risk **compounds multiplicatively across the seam**,
+not additively: if Project A has an 80% chance of hitting its date and
+Project B (dependent on A) separately has an 85% chance of hitting its own
+internal date assuming A arrives on time, the actual probability the program
+hits its combined date is closer to `0.80 × 0.85 ≈ 68%`, not the naive
+average of the two — every dependency seam in a program multiplies the
+compounding uncertainty, which is the specific, quantifiable reason program
+management exists as a discipline distinct from just running several
+projects side by side.
+
 ## Exercise
 
 You are the program manager for a program with three projects: Project A (40

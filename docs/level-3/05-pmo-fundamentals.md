@@ -99,6 +99,26 @@ Most PMOs overestimate their own maturity level by one full column — a
 useful gut check is asking whether the PMO's *own* processes have ever been
 retrospected using the lessons-learned template it mandates for projects.
 
+## How It Actually Works
+
+Rolling up projects that report different metrics (some EVM, some
+Kanban-flow, some milestone-percent-complete) into one PMO dashboard is a
+**normalization problem**, not a formatting problem: you cannot average an
+SPI of 0.85 with a "flow efficiency" of 62% and a "3 of 5 milestones hit" and
+get a meaningful number, because they're measured on incompatible scales
+with different failure thresholds. The correct approach converts every
+project's status to a common **ordinal RAG scale calibrated per methodology**
+— e.g. SPI < 0.90 → Red for predictive projects, but a Kanban project's Red
+threshold is defined against cycle-time trend and WIP-limit violations
+instead, because SPI is undefined for flow-based work. The stage-gate math
+underneath governance cadence is itself a **filtering funnel**: if each gate
+independently passes 70% of the projects that reach it, a program with 4
+sequential gates only delivers `0.70^4 ≈ 24%` of originally-approved projects
+all the way to completion unmodified — which is a feature, not a defect, as
+long as the 76% that get stopped, re-scoped, or killed at a gate are stopped
+*cheaply*, early, rather than expensively, late (Level 1 Module 2's
+cost-multiplier logic again).
+
 ## Exercise
 
 Your organisation runs 6 concurrent projects with no PMO today: reporting

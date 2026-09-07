@@ -147,6 +147,28 @@ the skill.
     check whether any **triggers** have fired, and add newly identified ones.
     Risk scores are perishable, and a stale register gives false comfort.
 
+## How It Actually Works
+
+A decision tree's expected value at each node is computed by **backward
+induction** — the same right-to-left mechanic as CPM's backward pass in
+Module 2: you solve the rightmost (latest) branches first, collapse each
+decision node to the value of its best child, and roll that collapsed value
+leftward, node by node, until the root shows the EV-optimal path. This is
+why decision trees handle sequential, conditional risk decisions (e.g. "test
+the prototype first, and only pay for full tooling if the test passes")
+correctly while a flat EMV table cannot — the flat table assumes independent
+one-shot bets, while the tree correctly discounts a later cost by the
+probability of even reaching that branch. The calibration step (turning
+"high/medium/low" into numeric probability bands) matters because
+**miscalibrated qualitative scales silently break EMV math downstream**: if
+your organization's "high probability" secretly means anywhere from 40% to
+90% depending on who's estimating, two risks rated identically on the heat
+map can carry EMVs that differ by more than 2×, and the reserve pooled from
+a register of miscalibrated risks will be systematically wrong in a
+direction nobody can detect from the register itself — only a calibration
+exercise (asking "if we ran this exact risk 10 times, how many times would it
+occur?") catches it.
+
 ## Exercise
 
 Build a full risk analysis for a project of your own.

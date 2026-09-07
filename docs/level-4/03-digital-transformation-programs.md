@@ -82,6 +82,23 @@ actually realise their benefits map.
 | Help-desk ticket volume trend | Whether friction is decreasing over time | Rising tickets in week 1–2 is normal; rising in month 3 is a real signal |
 | Manager survey: "which process do you actually use day to day" | Self-reported reality, catches shadow processes | Only as honest as psychological safety allows — anonymise it |
 
+## How It Actually Works
+
+The benefits-realization curve's characteristic dip before the eventual gain
+is the **J-curve**, and it has a precise mechanical cause, not just a mood:
+during cutover, the organization is paying the full cost of the change
+(training time, temporary productivity loss, parallel-running old and new
+systems) while capturing none of the benefit yet, because adoption — and
+therefore benefit — is a function of cumulative usage, which starts at zero
+regardless of how good the new system is. Modeling adoption as an **S-curve
+diffusion process** (again Rogers' curve from Level 2 Module 7) rather than
+a step function is what allows a forced-cutover decision to be made
+rigorously: the total value destroyed by the J-curve dip is roughly the
+integral of (cost − benefit) over the adoption ramp, and a forced cutover is
+justified specifically when running two systems in parallel for longer would
+cost more than accepting a steeper, shorter dip — a calculation, not a
+leadership preference.
+
 ## Exercise
 
 A transformation program replacing a legacy CRM goes live on schedule. Three

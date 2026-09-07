@@ -113,6 +113,28 @@ Three consecutive periods of decline (months 2–4) is the general rule of
 thumb for distinguishing a trend from a single bad sprint — one bad month
 after five good ones is usually noise; three in a row is a signal.
 
+## How It Actually Works
+
+The three EAC formulas from Level 2 Module 3 are, formally, three different
+**statistical models of how a cost variance propagates**, and choosing
+between them is a modeling decision with a right answer given the data:
+`EAC = AC + (BAC − EV)` implicitly assumes the variance-to-date was a
+non-recurring shock and future work reverts to the original planned rate
+(appropriate only if you can point to a specific, resolved, one-off cause);
+`EAC = BAC / CPI` assumes the *current* cumulative efficiency is the best
+predictor of all future efficiency (appropriate for a systemic cause, like
+consistently underpriced labor, that won't self-correct); and the "both"
+method, `EAC = AC + [(BAC − EV) / (CPI × SPI)]`, additionally discounts
+remaining work by **schedule performance**, on the empirical basis that
+projects running behind schedule tend to also spend more per unit of
+remaining work (overtime premiums, expediting costs, resource contention) —
+so it's the appropriate model specifically when both indices are
+underperforming together, not when only one is. Running all three against
+one dataset and getting three materially different numbers isn't a
+methodology failure, it's the model correctly telling you that the choice of
+*assumed root cause* changes the forecast by that much — which is itself
+diagnostic information worth reporting alongside the number.
+
 ## Exercise
 
 A project: BAC = $1,200,000, PV = $500,000, EV = $410,000, AC = $470,000.

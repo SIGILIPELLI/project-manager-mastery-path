@@ -165,6 +165,29 @@ translation table below is what a PM prepares before that meeting:
     history, never against another team's points, and never set a velocity
     target in a performance review.
 
+## How It Actually Works
+
+Velocity-based forecasting works because story points, properly estimated,
+converge to a roughly **normal distribution around the team's true
+throughput** once enough sprints are sampled — which is exactly why
+forecasting off one sprint's velocity is unreliable (n=1, no variance
+estimate) while forecasting off a trailing average of the last 6 sprints is
+far more stable: `Sprints remaining = Remaining points / mean(last 6
+velocities)`, and the **standard deviation of those 6 velocities** gives you
+a confidence range the same way PERT's σ does in Level 2 Module 2 — a mean
+velocity of 32 with σ = 4 means an 84%-confidence forecast should use 28
+points/sprint, not 32. Kanban's flow metrics rest on the same Little's Law
+identity introduced in Level 1 Module 9: `Cycle time = WIP / Throughput`,
+which is why a Cumulative Flow Diagram's band *widths* (not heights) are the
+real signal — a widening "In Progress" band means WIP is growing faster than
+throughput, and the cycle-time increase it predicts will show up 1–2 weeks
+later even though today's board still looks fine. Story-point estimation
+itself works statistically only because relative sizing (Fibonacci-like
+scales: 1, 2, 3, 5, 8, 13) forces estimators away from false precision — the
+gaps between values widen with size specifically because uncertainty about a
+13-point item is genuinely larger in absolute terms than uncertainty about a
+2-point item, even if both feel equally "estimated."
+
 ## Exercise
 
 Take a project you know and set it up as an agile delivery. (1) Write a

@@ -83,6 +83,26 @@ overlap, that assumption breaks:
 |---|---|---|---|---|
 | Approve architecture change | Bengaluru engineer | SF-based architect | Bengaluru finishes their day before SF starts — a same-day approval is impossible | Pre-delegate a same-timezone backup approver with clear boundaries on what they can approve without escalating |
 
+## How It Actually Works
+
+Time zone overlap isn't just "the hours that coincide" — the *usable*
+synchronous window is that overlap **minus a buffer for each person's
+cognitive-readiness curve** (most people aren't in decision-quality mode in
+the first or last hour of their working day), so a nominal 2-hour overlap
+between two time zones often yields under an hour of genuinely productive
+synchronous time, which is why distance-adjusted RACI structures (Module 8's
+worked example) deliberately shift decision rights toward async-compatible
+patterns (a single Accountable owner who can decide without a live
+meeting) rather than assuming synchronous consensus will happen. This
+connects directly to Level 1 Module 8's communication-hop degradation: a
+distributed team's information necessarily passes through more asynchronous
+hops (recorded updates, async written handoffs) than a co-located team's
+hallway conversations, and each hop is a point of potential information
+loss — the mechanical countermeasure is not "communicate more," it's
+**reducing hop count** by pushing decision rights down to whoever has full
+context, exactly the Level 1 Module 1 rationale for RACI's single
+Accountable owner.
+
 ## Exercise
 
 You run a project with engineers in Austin (UTC−6) and Tokyo (UTC+9), with

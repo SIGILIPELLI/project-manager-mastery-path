@@ -229,6 +229,30 @@ never real if one person had to do both D and E. Always level against
 actual named resources before publishing a date — a resource-infeasible
 critical path is not a plan, it is a wish.
 
+## How It Actually Works
+
+Everything above was computed by hand, but scheduling software runs the
+identical algorithm as **graph traversal over an adjacency-list
+representation** of the network: each activity is a node storing its own
+duration and a list of predecessor/successor node IDs, the forward pass is a
+single breadth-first or topologically-ordered traversal computing `ES/EF`
+node by node, and the backward pass is the same traversal run in reverse
+topological order computing `LS/LF`. This is an **O(V + E)** algorithm —
+linear in the number of activities plus dependencies — which is why
+enterprise scheduling tools can re-solve a 50,000-activity network in
+milliseconds every time a single duration changes: they aren't "recomputing
+the whole plan," they're re-running one linear pass and only the downstream
+nodes reachable from the changed node actually get new numbers (nodes on
+unrelated branches of the graph are untouched). PERT's beta distribution
+choice (rather than, say, a normal distribution) isn't arbitrary either: a
+beta distribution can be **skewed and bounded** — task duration has a hard
+floor (can't finish in negative time) and a long right tail (things run
+over far more often than they run under) — which a symmetric normal
+distribution cannot represent, and the `(O + 4M + P) / 6` formula is a
+specific parameterization of the beta distribution's mean that weights the
+mode 4× to approximate that skew cheaply without fitting actual beta
+parameters.
+
 ## Exercise
 
 Build and analyse a schedule of your own with at least 10 activities and at

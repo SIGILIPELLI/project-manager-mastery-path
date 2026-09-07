@@ -114,6 +114,25 @@ survey responses stored for 12 months only. With this version, when the
 "explicitly excluded, here's why, want to raise it as a change request?" —
 instead of a dispute about what was implicitly promised.
 
+## How It Actually Works
+
+The **100% rule** in a WBS is a literal accounting identity, not a guideline:
+the sum of the effort/cost estimates of all lowest-level work packages must
+equal 100% of the parent's scope, with no more and no less — if it sums to
+95%, five percent of the work is undocumented and will surface as an
+unplanned cost later; if it sums to 105%, something is double-counted across
+two work packages (a common WBS defect when two team leads both assume they
+own "integration testing"). Scope creep has a compounding mechanic worth
+quantifying: a project accepting small, individually-reasonable-looking
+additions of just 2% of the original scope per month, uncorrected, has grown
+the underlying work by `(1.02)^12 − 1 ≈ 26.8%` over a year — compound growth,
+not additive — which is why a single unmanaged "just this one small thing"
+request is never actually small in its effect on the baseline. This is the
+mathematical reason a **scope baseline plus formal change control** exists:
+it converts creep from a compounding, invisible process into a series of
+discrete, visible, individually-approved deltas that can each be costed
+against the schedule and budget before being accepted.
+
 ## Exercise
 
 Write a one-page scope statement for a project of your choosing (examples:

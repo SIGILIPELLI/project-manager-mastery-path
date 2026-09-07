@@ -222,6 +222,31 @@ matching assignment to need costs nothing:
 For a project manager with no control over pay, **assignment design is the
 main motivational lever you actually hold.** Use it deliberately.
 
+## How It Actually Works
+
+"Bigger teams are slower per person" has the same root cause as Brooks's Law
+in Level 1 Module 1 — the `n(n-1)/2` combinatorial growth in coordination
+links — but it compounds further once you account for **coordination
+overhead scaling super-linearly with communication volume**: each new
+pairwise link doesn't just exist, it also consumes a slice of each existing
+member's finite attention, so effective individual output follows something
+closer to `Output_per_person ≈ BaseOutput − k×(n−1)` for some coordination
+constant k, meaning total team output has a theoretical maximum team size
+beyond which adding people *reduces* total throughput, not just per-person
+throughput. Tuckman's stages have a mechanical driver too: **Storming is not
+optional friction, it's the phase where the group's implicit assumptions
+about roles, authority, and norms get made explicit** through conflict — a
+team that skips visible Storming hasn't avoided it, it has suppressed it,
+and the unresolved role ambiguity resurfaces later as passive conflict during
+Performing, at a point where it's more expensive to renegotiate because
+deliverables are already in flight. The five conflict-resolution modes
+(Compromising, Collaborating, Forcing, Avoiding, Accommodating) map onto a
+2D space of `assertiveness × cooperativeness`, and the mechanical reason a PM
+should diagnose the conflict source *before* picking a mode is that the
+same mode applied to the wrong source type has opposite effects — Forcing a
+values-based conflict entrenches both sides, while Forcing a pure
+resource-scheduling conflict often resolves it in minutes.
+
 ## Exercise
 
 Work with a real team — current or recent — throughout.

@@ -108,6 +108,27 @@ conclusion from the numbers alone.
 | Promising an aggressive recovery timeline to rebuild confidence fast | Missing a second recovery deadline is worse than the original miss | Commit to a conservative recovery date with a visible early milestone |
 | Reverting to long reporting cycles once "things feel better" | Trust was lost through opacity; restoring it needs sustained visibility, not a return to normal | Keep tightened (e.g., weekly) reporting until 2–3 consecutive periods hit plan |
 
+## How It Actually Works
+
+Deciding whether a project needs recovery vs. routine correction is, at the
+math level, a **trend-extrapolation problem**: a single bad EVM snapshot
+(CPI = 0.85 this period) is one data point and could be noise; the recovery
+threshold should trigger off the **CPI/SPI trend across at least 3
+consecutive periods** combined with the TCPI check from Level 2 Module 3 —
+if TCPI (the efficiency still-required on all remaining work) exceeds
+roughly 1.10-1.15, that's a statement that recovery within the existing
+baseline requires performance the team has not yet once demonstrated across
+the whole project to date, which is a materially different, much stronger
+claim than "we had one bad month." Root-cause vs. symptom analysis uses the
+same **fishbone/five-whys mechanism as Level 2 Module 6**, but applied
+recursively: a schedule slip (symptom) traces back through "why" chains that
+frequently terminate not in a technical cause but in an **estimation-bias
+root cause** — optimistic single-point estimates from Level 1 Module 5 that
+were never revisited with three-point/PERT ranging — which is why a genuine
+recovery plan usually has to change the *estimating process* itself, not
+just re-baseline the current numbers, or the same root cause reliably
+reproduces the same symptom on the next major deliverable.
+
 ## Exercise
 
 A project shows PV = $600,000, EV = $390,000, AC = $520,000, BAC =

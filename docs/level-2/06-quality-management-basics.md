@@ -169,6 +169,30 @@ point breaches a limit — the **rule of seven**.
     exceeding them. If the extra is genuinely valuable, raise it as a change
     request (module 07) and let it be assessed like anything else.
 
+## How It Actually Works
+
+Pareto analysis rests on an empirical regularity, not a guess: defect causes
+in most real systems follow a **power-law distribution**, where roughly 20%
+of distinct causes account for roughly 80% of total defect volume — which is
+why sorting causes by frequency and drawing a cumulative-percentage line
+reliably shows a steep initial climb that flattens fast, and why fixing the
+top 2-3 causes on the list, not all of them, captures most of the available
+improvement per unit of effort spent. A **control chart's** center line and
+control limits (typically `mean ± 3σ`) aren't cosmetic — they encode a
+statistical hypothesis test run continuously: any point outside ±3σ has
+under 0.3% probability of occurring by pure common-cause variation alone, so
+it's flagged as a likely **special cause** worth investigating, while points
+inside the band, even if trending, are statistically indistinguishable from
+normal process noise and investigating them individually wastes effort
+(this is the literal mechanism behind "don't tamper with a process that's in
+control," a real, quantifiable overreaction risk). Cost of Quality's
+prevention/appraisal vs. internal/external failure split matters
+mechanically because failure costs compound the later they're caught — the
+same 10x-per-phase multiplier from Level 1 Module 2 applies here: a $50
+prevention cost (a design review) that prevents a defect otherwise caught in
+external failure (a field recall) is intercepting a cost that would have
+been 100-1000x larger.
+
 ## Exercise
 
 Build a quality management plan for a project of your own.

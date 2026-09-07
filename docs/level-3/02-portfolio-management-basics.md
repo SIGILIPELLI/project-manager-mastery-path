@@ -114,6 +114,27 @@ project.
 | D | 60.0 | Active | 60% | 2 weeks late | Stable |
 | B | 76.0 | Deferred to next cycle | — | — | — |
 
+## How It Actually Works
+
+Capacity-constrained selection is a version of the **knapsack problem**: you
+have a fixed capacity (budget, or full-time-equivalent headcount) and a set
+of candidate projects each with a "weight" (cost) and a "value" (strategic
+score), and the objective is to select the subset maximizing total value
+without exceeding capacity. Picking strictly top-N by score, the naive
+approach, is provably suboptimal against a hard capacity constraint — the
+correct heuristic is to rank by **value density**, `score / cost`, not raw
+score, because a lower-scoring but cheaper project can free capacity for two
+more projects than one expensive high-scorer would allow, producing more
+total value from the same budget. This is exactly analogous to Level 2
+Module 5's FPIF share-ratio math and Module 2's cost-slope crashing
+decisions — all three are constrained-optimization problems where the naive
+"pick the biggest number" heuristic loses to "pick the best ratio" heuristic
+once a hard constraint is binding. True optimal knapsack selection is
+computationally expensive at scale (NP-hard), which is the actual technical
+reason portfolio tools use the value-density heuristic rather than solving
+for a global optimum — it's a fast, usually-near-optimal approximation, not
+a shortcut taken out of laziness.
+
 ## Exercise
 
 Score two new candidate projects using the weighted model above (alignment

@@ -94,6 +94,27 @@ a week, discussing only cross-team blockers — not a status report.
 | Search | Omar | None |
 | Mobile | Lin | Flagging risk on Checkout dependency — see PI board above |
 
+## How It Actually Works
+
+PI (Program Increment) planning's dependency board is solving the same
+constraint-graph problem as Module 1's program dependency map, just at a
+tighter, sprint-level granularity and a fixed horizon (typically 5 sprints):
+each team's committed objectives become nodes, cross-team dependencies
+become edges, and the planning event's real output is a graph with **no
+unresolved edges pointing backward in time** — an edge from Team A's Sprint 3
+deliverable feeding Team B's Sprint 2 work is a scheduling impossibility
+that must be caught and resolved (by reordering, not by wishful thinking)
+before the PI is confirmed, exactly the acyclic-graph requirement from Level
+1 Module 4. LeSS and SAFe differ in a structurally meaningful way, not just
+philosophically: **SAFe adds coordination layers** (Release Train Engineer,
+System Team) that convert the `n(n-1)/2` team-to-team communication problem
+into a smaller number of hub-and-spoke links through those roles, trading
+direct team autonomy for lower coordination overhead at scale, while LeSS
+deliberately **keeps the flat structure** and instead reduces the
+coordination *load* itself (shared backlog, shared sprint, fewer cross-team
+dependencies by design) — same underlying combinatorial problem, two
+opposite mechanical solutions.
+
 ## Exercise
 
 A 60-person product organisation runs 6 Scrum teams. Three teams share one

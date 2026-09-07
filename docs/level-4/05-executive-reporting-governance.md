@@ -94,6 +94,23 @@ the two symmetric failure modes: escalating too much (noise, executives
 stop reading) and escalating too little (a real problem reaches the board
 only when it's already a crisis, per module 04).
 
+## How It Actually Works
+
+The exception-report principle — report only what's off-track or newly
+decided, not full status — is an application of **information theory's
+signal-to-noise concept**: a channel (the executive's attention) has finite
+bandwidth, and every routine, on-track data point transmitted through it
+that requires no decision is pure noise consuming bandwidth that a genuine
+exception needs. Escalation thresholds function as a formal **filter**
+between the operational data layer (where every metric lives, updated
+continuously) and the governance layer (which should only see filtered
+signal) — the threshold's calibration matters exactly like Level 2 Module
+9's RAG thresholds: set too sensitive, real signal drowns in false alarms
+and executives learn to ignore the channel entirely (the mechanism degrades
+back to full noise); set too insensitive, genuine problems pass through
+unfiltered until they're large enough to be obvious anyway, at which point
+the filtering added no value and the reporting channel failed at its one job.
+
 ## Exercise
 
 You manage the monthly executive rollup for a portfolio of 5 projects: 3

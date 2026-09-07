@@ -103,6 +103,28 @@ pattern in its early stage.
    the resolution so it doesn't quietly resurface as unaddressed resistance
    two months later.
 
+## How It Actually Works
+
+Influence-network mapping moves stakeholder analysis from Level 1's static
+2D grid into an actual **graph-centrality problem**: a stakeholder's real
+influence isn't fully captured by their own formal power score, it's
+partly a function of whom they're connected to — a mid-level stakeholder
+with low formal power but a direct, trusted line to the sponsor has higher
+*effective* influence (closer to the sponsor's decision-making, fewer lossy
+hops per Level 1 Module 8's noise model) than a nominally senior stakeholder
+who is organizationally isolated. This is computed the same way social-
+network analysis computes **betweenness centrality**: a stakeholder who sits
+on the only path connecting two otherwise-disconnected coalitions holds
+disproportionate power to broker or block, regardless of their title,
+because information and buy-in have to flow through them. Coalition
+detection matters mechanically because resistance rarely defeats a project
+one stakeholder at a time — it defeats it when *previously unconnected*
+resistant stakeholders discover shared grievances and form a coalition,
+which is a phase-transition event (the network suddenly gets a new,
+high-centrality connecting edge) rather than a gradual one, which is why
+engagement plans for high-risk stakeholders should specifically monitor for
+new connections forming, not just individual sentiment scores.
+
 ## Exercise
 
 Your project has a stakeholder — a department head with medium formal

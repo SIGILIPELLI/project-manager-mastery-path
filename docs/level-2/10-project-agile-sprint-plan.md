@@ -254,6 +254,23 @@ conversation is. The decision panel is what makes the report worth sending:
 it names two options, prices both, and gives the date beyond which the choice
 is made by default.
 
+## How It Actually Works
+
+This worked plan's hybrid model exposes exactly why the earned-value figures
+and the sprint velocity figures must be **reconciled through one shared unit
+of work**, not tracked as two separate systems: PV/EV are stated in dollars
+against a time-phased baseline, while velocity is stated in story points
+against a sprint cadence, and translating between them requires a stable
+`$/point` conversion — `Planned $/sprint = (points planned that sprint /
+total points) × total budget`. If a sprint's velocity underperforms, that
+shows up as an SPI < 1 in EVM terms without any separate calculation, but
+only if the $/point rate used to convert them was itself derived from a
+*representative* sprint — deriving it from an anomalously fast early sprint
+(before the team's true velocity stabilized around its statistical mean, per
+Module 1's variance discussion) silently understates the $/point rate and
+makes every later sprint look artificially over budget on the dashboard even
+when nothing has actually changed about team performance.
+
 ## Exercise
 
 Build the same four connected artefacts for a project of your own — reuse the

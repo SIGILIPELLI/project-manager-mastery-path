@@ -113,6 +113,23 @@ integration's Red status. The program manager's next action is drawing down
 the $66,000 reserve for the actual change-order cost once quantified, and
 re-forecasting the program EAC with the updated POS project numbers.
 
+## How It Actually Works
+
+The week-11 checkpoint numbers here show the multiplicative-uncertainty
+mechanic from Module 1 concretely: the POS integration project's Red status
+(SPI 0.85, CPI 0.88) isn't just that one project's problem — because the
+Loyalty platform and Marketing launch projects sit on a **dependency seam**
+downstream of shared program infrastructure, the compounded probability of
+the *program* hitting its combined date is the product of each project's
+conditional on-time probability, not their average, exactly as in Module 1's
+worked example. The reserve drawdown decision applied here also follows the
+EMV-drift diagnostic from Module 3 — R1 materializing at a moment when the
+register had estimated only a 35% chance means the register's probability
+estimate for this risk category should be revised upward for any remaining
+similar risks in the program, not treated as an isolated unlucky draw,
+because a vendor audit finding scope gaps is frequently a **systemic**
+signal about that vendor's other in-flight deliverables, not a one-off.
+
 ## Stretch goals
 
 - Extend the risk register with a fourth risk that spans two of the three

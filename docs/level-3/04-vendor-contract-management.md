@@ -135,6 +135,24 @@ mid-contract.
   early-termination fees. Read this clause *before* you need it, not during
   a dispute.
 
+## How It Actually Works
+
+The PTA (Point of Total Assumption) math from Level 2 Module 5 has a
+second-order effect worth making explicit here: because a vendor's payment
+function is **piecewise linear with a kink at PTA** (shared risk below it,
+100% seller risk above it), the vendor's *rational* incentive to control
+cost is strongest in the dollars immediately below PTA and weakest in the
+dollars immediately after crossing it — once a vendor's actual cost has
+already blown past the ceiling, they have already absorbed the maximum
+contractual loss and have **zero remaining contractual incentive** to
+economize further, because every additional dollar of overrun beyond the
+ceiling is a pure loss regardless of magnitude. This is the mechanical
+reason a buyer's vendor-management attention should intensify, not relax,
+once cost tracking shows actual cost approaching the ceiling — it marks the
+exact point where the contract's own incentive structure stops doing the
+buyer's risk-management work, and only active oversight (not the contract
+terms) protects the buyer's interest for the rest of the engagement.
+
 ## Exercise
 
 A fixed-price-incentive-fee contract has target cost $250,000, target fee

@@ -846,6 +846,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#how-it-actually-works" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How It Actually Works
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#exercise" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -2239,6 +2250,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#how-it-actually-works" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How It Actually Works
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#exercise" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -2473,6 +2495,24 @@ original assumption) would have missed this until front-end build was
 blocked waiting on a UI design that was quietly eating all its float. The
 lesson: the critical path isn't fixed at kickoff — it has to be
 re-evaluated any time a task's actual progress deviates from plan.</p>
+<h2 id="how-it-actually-works">How It Actually Works<a class="headerlink" href="#how-it-actually-works" title="Permanent link">&para;</a></h2>
+<p>A dependency network is formally a <strong>directed acyclic graph (DAG)</strong>: each
+task is a node, each dependency is a directed edge, and "acyclic" is not
+optional — if Task B depends on Task A and Task A (even transitively) depends
+on Task B, no valid schedule exists at all, and scheduling software will
+throw a circular-dependency error rather than silently computing a wrong
+date. Finding the finish date is a <strong>topological sort followed by a single
+forward pass</strong>: process nodes only after all their predecessors are
+processed, tracking <code>finish[node] = max(finish[predecessor] for predecessor
+in dependencies) + duration</code>. This is why adding a single dependency between
+two previously-parallel tasks can suddenly change the project end date even
+though no task's own duration changed — you've merged two independent paths
+through the graph into one, and the new critical path is <code>max()</code> of the two
+former paths rather than the shorter of the two running in parallel. A Gantt
+chart is just a visual rendering of this graph's forward-pass solution laid
+against a calendar axis; the bars' positions are computed, not drawn by
+judgment. (Level 2's Advanced Scheduling module runs the full forward <strong>and</strong>
+backward pass to get float, not just the finish date.)</p>
 <h2 id="exercise">Exercise<a class="headerlink" href="#exercise" title="Permanent link">&para;</a></h2>
 <p>Using the four-task example structure above (a small set of dependent
 tasks), sketch your own five-task schedule for a project of your choice —

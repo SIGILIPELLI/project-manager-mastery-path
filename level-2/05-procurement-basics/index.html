@@ -1250,6 +1250,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#how-it-actually-works" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How It Actually Works
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#exercise" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -2239,6 +2250,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#how-it-actually-works" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How It Actually Works
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#exercise" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -2589,6 +2611,28 @@ against your WBS line by line and confirm every deliverable, acceptance
 criterion, and interface is named. An hour spent here is worth more than
 any amount of contract management afterwards.</p>
 </div>
+<h2 id="how-it-actually-works">How It Actually Works<a class="headerlink" href="#how-it-actually-works" title="Permanent link">&para;</a></h2>
+<p>The FPIF (Fixed Price Incentive Fee) payout curve is a <strong>piecewise linear
+function of actual cost</strong>, and its mechanics explain exactly why contract
+type shifts risk: below the Point of Total Assumption (PTA), the buyer and
+seller share cost overruns at the negotiated share ratio (e.g. 80/20 — buyer
+absorbs 80 cents of every dollar over target), so <code>Seller payment = Target
+Cost + Target Fee − ShareRatio_seller × (Actual − Target)</code> up to the ceiling
+price; once actual cost crosses the ceiling, the contract flips to
+effectively Firm-Fixed-Price and the <strong>seller absorbs 100%</strong> of every
+additional dollar. <code>PTA = ((Ceiling − Target Price) / Buyer's Share) +
+Target Cost</code> is the exact cost level at which that flip happens, and it's a
+number every vendor calculates privately before signing — which is why
+vendor behavior often changes sharply as actual cost approaches PTA (increased
+scrutiny of change orders, resistance to scope additions) even though nothing
+in the contract language itself changed. Weighted vendor scoring is a
+straightforward linear model, <code>Score = Σ(criterion_weight × criterion_score)</code>,
+but its hidden failure mode is <strong>weight sensitivity</strong>: because scores are
+bounded (e.g. 1–5) while weights are continuous, a vendor's total ranking can
+flip based on a 5-percentage-point change in a single weight — always
+re-running the model with ±10% weight perturbations before finalizing a
+selection reveals whether the decision is robust or an artifact of one
+weighting choice.</p>
 <h2 id="exercise">Exercise<a class="headerlink" href="#exercise" title="Permanent link">&para;</a></h2>
 <p>Plan a real procurement for a project of your own.</p>
 <ol>

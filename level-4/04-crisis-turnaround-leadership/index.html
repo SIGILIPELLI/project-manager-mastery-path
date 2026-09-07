@@ -2008,6 +2008,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#how-it-actually-works" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How It Actually Works
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#exercise" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -2307,6 +2318,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#how-it-actually-works" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How It Actually Works
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#exercise" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -2540,6 +2562,24 @@ the roles slows the technical fix and produces worse communication.</p>
 <p>Fixing only the trigger (restart, add more connections) guarantees a repeat
 under the next load spike; the real fix changes the gate that let an
 untested system reach production load in the first place.</p>
+<h2 id="how-it-actually-works">How It Actually Works<a class="headerlink" href="#how-it-actually-works" title="Permanent link">&para;</a></h2>
+<p>Incident command structures exist because normal project decision-making
+(consensus, escalation through the usual reporting chain) has a <strong>latency
+that's tolerable for routine variance and fatal during a genuine crisis</strong> —
+every additional approval hop adds a fixed delay (Level 1 Module 8's
+communication-hop degradation, under time pressure), so a pre-defined
+incident commander with pre-authorized decision rights isn't a
+power-grab, it's removing hop count from the critical path of the response
+itself, exactly the way Level 2 Module 2 removes float from a schedule's
+critical path by eliminating unnecessary sequential dependencies. The
+root-cause-vs-trigger distinction in a post-incident review is a <strong>necessary
+vs. sufficient condition</strong> analysis: a trigger is a sufficient condition
+that precipitated the specific incident on the specific day (a bad deploy),
+while a root cause is a necessary, standing condition that made the system
+vulnerable to <em>some</em> trigger eventually (no deploy-rollback capability) —
+fixing only the trigger leaves the necessary condition in place and
+statistically guarantees a different trigger produces the same class of
+incident later.</p>
 <h2 id="exercise">Exercise<a class="headerlink" href="#exercise" title="Permanent link">&para;</a></h2>
 <p>Your organisation's customer-facing app goes down completely during a major
 marketing campaign's launch hour, driven by a spike in signups the system

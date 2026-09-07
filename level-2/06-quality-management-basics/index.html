@@ -1300,6 +1300,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#how-it-actually-works" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How It Actually Works
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#exercise" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -2283,6 +2294,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#how-it-actually-works" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How It Actually Works
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#exercise" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -2653,6 +2675,28 @@ for or will maintain. Conformance to requirements means meeting them, not
 exceeding them. If the extra is genuinely valuable, raise it as a change
 request (module 07) and let it be assessed like anything else.</p>
 </div>
+<h2 id="how-it-actually-works">How It Actually Works<a class="headerlink" href="#how-it-actually-works" title="Permanent link">&para;</a></h2>
+<p>Pareto analysis rests on an empirical regularity, not a guess: defect causes
+in most real systems follow a <strong>power-law distribution</strong>, where roughly 20%
+of distinct causes account for roughly 80% of total defect volume — which is
+why sorting causes by frequency and drawing a cumulative-percentage line
+reliably shows a steep initial climb that flattens fast, and why fixing the
+top 2-3 causes on the list, not all of them, captures most of the available
+improvement per unit of effort spent. A <strong>control chart's</strong> center line and
+control limits (typically <code>mean ± 3σ</code>) aren't cosmetic — they encode a
+statistical hypothesis test run continuously: any point outside ±3σ has
+under 0.3% probability of occurring by pure common-cause variation alone, so
+it's flagged as a likely <strong>special cause</strong> worth investigating, while points
+inside the band, even if trending, are statistically indistinguishable from
+normal process noise and investigating them individually wastes effort
+(this is the literal mechanism behind "don't tamper with a process that's in
+control," a real, quantifiable overreaction risk). Cost of Quality's
+prevention/appraisal vs. internal/external failure split matters
+mechanically because failure costs compound the later they're caught — the
+same 10x-per-phase multiplier from Level 1 Module 2 applies here: a $50
+prevention cost (a design review) that prevents a defect otherwise caught in
+external failure (a field recall) is intercepting a cost that would have
+been 100-1000x larger.</p>
 <h2 id="exercise">Exercise<a class="headerlink" href="#exercise" title="Permanent link">&para;</a></h2>
 <p>Build a quality management plan for a project of your own.</p>
 <ol>

@@ -818,6 +818,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#how-it-actually-works" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How It Actually Works
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#exercise" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -2239,6 +2250,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#how-it-actually-works" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How It Actually Works
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#exercise" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -2441,6 +2463,23 @@ survey responses stored for 12 months only. With this version, when the
 "what about reminder emails" question comes up, it's a two-second answer —
 "explicitly excluded, here's why, want to raise it as a change request?" —
 instead of a dispute about what was implicitly promised.</p>
+<h2 id="how-it-actually-works">How It Actually Works<a class="headerlink" href="#how-it-actually-works" title="Permanent link">&para;</a></h2>
+<p>The <strong>100% rule</strong> in a WBS is a literal accounting identity, not a guideline:
+the sum of the effort/cost estimates of all lowest-level work packages must
+equal 100% of the parent's scope, with no more and no less — if it sums to
+95%, five percent of the work is undocumented and will surface as an
+unplanned cost later; if it sums to 105%, something is double-counted across
+two work packages (a common WBS defect when two team leads both assume they
+own "integration testing"). Scope creep has a compounding mechanic worth
+quantifying: a project accepting small, individually-reasonable-looking
+additions of just 2% of the original scope per month, uncorrected, has grown
+the underlying work by <code>(1.02)^12 − 1 ≈ 26.8%</code> over a year — compound growth,
+not additive — which is why a single unmanaged "just this one small thing"
+request is never actually small in its effect on the baseline. This is the
+mathematical reason a <strong>scope baseline plus formal change control</strong> exists:
+it converts creep from a compounding, invisible process into a series of
+discrete, visible, individually-approved deltas that can each be costed
+against the schedule and budget before being accepted.</p>
 <h2 id="exercise">Exercise<a class="headerlink" href="#exercise" title="Permanent link">&para;</a></h2>
 <p>Write a one-page scope statement for a project of your choosing (examples:
 "organize a 50-person conference," "build a personal budgeting spreadsheet

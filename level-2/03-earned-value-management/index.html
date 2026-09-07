@@ -1194,6 +1194,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#how-it-actually-works" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How It Actually Works
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#exercise" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -2239,6 +2250,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#how-it-actually-works" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How It Actually Works
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#exercise" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -2603,6 +2625,28 @@ milestone acceptance you use elsewhere. An EVM report built on optimistic
 self-assessment is worse than no report, because it carries false
 authority.</p>
 </div>
+<h2 id="how-it-actually-works">How It Actually Works<a class="headerlink" href="#how-it-actually-works" title="Permanent link">&para;</a></h2>
+<p>EVM's real power is that CPI and SPI are <strong>not independent status opinions,
+they're both ratios against the same planned-value curve</strong>, which is why
+they can and do move in opposite directions: <code>SPI = EV/PV</code> measures schedule
+<em>efficiency</em> (are you burning through planned scope on pace) while <code>CPI =
+EV/AC</code> measures cost <em>efficiency</em> (are you spending what that scope should
+cost) — a project can be running SPI = 1.10 (ahead of schedule) and CPI =
+0.80 (over budget) simultaneously, which happens exactly when a team is
+throwing extra, expensive resources at the schedule to hit a date, buying
+schedule performance with cost performance. The <strong>EAC formula selection
+itself is a statistical judgment call</strong>, not a lookup: <code>EAC = AC + (BAC−EV)</code>
+assumes future work reverts to the <em>planned</em> rate (use only if the current
+variance was a one-off, non-recurring cause), while <code>EAC = BAC/CPI</code> assumes
+the <em>current</em> cost-performance trend continues unchanged for all remaining
+work (use when the cause is systemic — e.g., underpriced labor rates that
+won't improve) — picking the wrong one is choosing the wrong statistical
+model for how a variance propagates forward, not a matter of preference.
+TCPI, <code>(BAC−EV)/(BAC−AC)</code>, is the algebraic answer to "what CPI must every
+future dollar achieve to still hit budget" — when TCPI exceeds roughly 1.10,
+it's a mathematical statement that recovery within budget requires
+efficiency the team has not yet demonstrated, i.e. a rebaseline is likely
+warranted, not a management failure.</p>
 <h2 id="exercise">Exercise<a class="headerlink" href="#exercise" title="Permanent link">&para;</a></h2>
 <p>Set up EVM for a project of your own with at least eight work packages.</p>
 <ol>

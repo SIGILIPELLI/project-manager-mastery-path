@@ -1406,6 +1406,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#how-it-actually-works" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How It Actually Works
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#exercise" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -2327,6 +2338,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#how-it-actually-works" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How It Actually Works
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#exercise" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -2871,6 +2893,24 @@ AC, how percent-complete is claimed — and never change the definition
 mid-project without saying so on the report.</strong> A metric whose definition
 moves silently is worse than no metric, because it looks comparable when it
 is not.</p>
+<h2 id="how-it-actually-works">How It Actually Works<a class="headerlink" href="#how-it-actually-works" title="Permanent link">&para;</a></h2>
+<p>RAG thresholds that "mean something" are statistical control limits applied
+to project metrics the same way Module 6's control charts apply them to
+defect data: a threshold set at <code>CPI/SPI &lt; 0.90 → Red</code> isn't an arbitrary
+round number, it should be calibrated against the <strong>historical variance of
+completed projects of similar size</strong> in your organization — a threshold too
+tight (Red at 0.98) generates false alarms and trains stakeholders to ignore
+the dashboard; a threshold too loose (Red at 0.70) means real trouble hides
+in Amber for months. Milestone trend analysis works because a milestone
+date, re-forecast at every reporting period, produces a <strong>time series whose
+slope is diagnostic</strong>: a flat line (each report re-forecasts the same date)
+signals a stable plan, a line that consistently drifts later by roughly the
+same amount each period signals a systemic, recurring cause (not a one-off),
+and a line drifting later by an accelerating amount is the leading indicator
+of exactly the kind of variance that triggers a Level 3 Module 8 recovery
+review — long before EVM's own lagging cost/schedule indices would show the
+same trouble, because milestone-date slippage is a <em>leading</em> indicator while
+CPI/SPI are <em>lagging</em> indicators computed from work already done.</p>
 <h2 id="exercise">Exercise<a class="headerlink" href="#exercise" title="Permanent link">&para;</a></h2>
 <p>Design the reporting for a real project.</p>
 <ol>

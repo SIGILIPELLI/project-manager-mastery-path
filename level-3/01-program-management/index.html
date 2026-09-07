@@ -1542,6 +1542,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#how-it-actually-works" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How It Actually Works
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#exercise" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -2295,6 +2306,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#how-it-actually-works" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How It Actually Works
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#exercise" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -2604,6 +2626,24 @@ register:</p>
 </tr>
 </tbody>
 </table>
+<h2 id="how-it-actually-works">How It Actually Works<a class="headerlink" href="#how-it-actually-works" title="Permanent link">&para;</a></h2>
+<p>A program's dependency map is a graph, like a schedule network, but the
+edges carry a different meaning: a <strong>project-to-project dependency edge</strong>
+means one project's <em>output</em> is another's <em>input</em>, so the "critical path"
+at program level isn't computed from task durations directly — it's computed
+from <strong>each dependent project's finish-date distribution</strong> (its own PERT σ
+from Level 2 Module 2), because a downstream project can't even start its
+own critical-path clock until the upstream deliverable actually lands, with
+whatever schedule risk that upstream project itself carries. This is why
+program-level schedule risk <strong>compounds multiplicatively across the seam</strong>,
+not additively: if Project A has an 80% chance of hitting its date and
+Project B (dependent on A) separately has an 85% chance of hitting its own
+internal date assuming A arrives on time, the actual probability the program
+hits its combined date is closer to <code>0.80 × 0.85 ≈ 68%</code>, not the naive
+average of the two — every dependency seam in a program multiplies the
+compounding uncertainty, which is the specific, quantifiable reason program
+management exists as a discipline distinct from just running several
+projects side by side.</p>
 <h2 id="exercise">Exercise<a class="headerlink" href="#exercise" title="Permanent link">&para;</a></h2>
 <p>You are the program manager for a program with three projects: Project A (40
 days, needs 4 engineers), Project B (25 days, needs 3 engineers, cannot start

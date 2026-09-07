@@ -1648,6 +1648,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#how-it-actually-works" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How It Actually Works
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#exercise" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -2283,6 +2294,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#how-it-actually-works" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How It Actually Works
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#exercise" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -2586,6 +2608,24 @@ whichever PM escalates loudest.</p>
 <p>Most PMOs overestimate their own maturity level by one full column — a
 useful gut check is asking whether the PMO's <em>own</em> processes have ever been
 retrospected using the lessons-learned template it mandates for projects.</p>
+<h2 id="how-it-actually-works">How It Actually Works<a class="headerlink" href="#how-it-actually-works" title="Permanent link">&para;</a></h2>
+<p>Rolling up projects that report different metrics (some EVM, some
+Kanban-flow, some milestone-percent-complete) into one PMO dashboard is a
+<strong>normalization problem</strong>, not a formatting problem: you cannot average an
+SPI of 0.85 with a "flow efficiency" of 62% and a "3 of 5 milestones hit" and
+get a meaningful number, because they're measured on incompatible scales
+with different failure thresholds. The correct approach converts every
+project's status to a common <strong>ordinal RAG scale calibrated per methodology</strong>
+— e.g. SPI &lt; 0.90 → Red for predictive projects, but a Kanban project's Red
+threshold is defined against cycle-time trend and WIP-limit violations
+instead, because SPI is undefined for flow-based work. The stage-gate math
+underneath governance cadence is itself a <strong>filtering funnel</strong>: if each gate
+independently passes 70% of the projects that reach it, a program with 4
+sequential gates only delivers <code>0.70^4 ≈ 24%</code> of originally-approved projects
+all the way to completion unmodified — which is a feature, not a defect, as
+long as the 76% that get stopped, re-scoped, or killed at a gate are stopped
+<em>cheaply</em>, early, rather than expensively, late (Level 1 Module 2's
+cost-multiplier logic again).</p>
 <h2 id="exercise">Exercise<a class="headerlink" href="#exercise" title="Permanent link">&para;</a></h2>
 <p>Your organisation runs 6 concurrent projects with no PMO today: reporting
 formats differ, two projects have quietly missed their compliance deadlines

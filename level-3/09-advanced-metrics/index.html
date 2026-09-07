@@ -1766,6 +1766,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#how-it-actually-works" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How It Actually Works
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#exercise" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -2295,6 +2306,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#how-it-actually-works" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How It Actually Works
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#exercise" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -2567,6 +2589,26 @@ it as a trend:</p>
 <p>Three consecutive periods of decline (months 2–4) is the general rule of
 thumb for distinguishing a trend from a single bad sprint — one bad month
 after five good ones is usually noise; three in a row is a signal.</p>
+<h2 id="how-it-actually-works">How It Actually Works<a class="headerlink" href="#how-it-actually-works" title="Permanent link">&para;</a></h2>
+<p>The three EAC formulas from Level 2 Module 3 are, formally, three different
+<strong>statistical models of how a cost variance propagates</strong>, and choosing
+between them is a modeling decision with a right answer given the data:
+<code>EAC = AC + (BAC − EV)</code> implicitly assumes the variance-to-date was a
+non-recurring shock and future work reverts to the original planned rate
+(appropriate only if you can point to a specific, resolved, one-off cause);
+<code>EAC = BAC / CPI</code> assumes the <em>current</em> cumulative efficiency is the best
+predictor of all future efficiency (appropriate for a systemic cause, like
+consistently underpriced labor, that won't self-correct); and the "both"
+method, <code>EAC = AC + [(BAC − EV) / (CPI × SPI)]</code>, additionally discounts
+remaining work by <strong>schedule performance</strong>, on the empirical basis that
+projects running behind schedule tend to also spend more per unit of
+remaining work (overtime premiums, expediting costs, resource contention) —
+so it's the appropriate model specifically when both indices are
+underperforming together, not when only one is. Running all three against
+one dataset and getting three materially different numbers isn't a
+methodology failure, it's the model correctly telling you that the choice of
+<em>assumed root cause</em> changes the forecast by that much — which is itself
+diagnostic information worth reporting alongside the number.</p>
 <h2 id="exercise">Exercise<a class="headerlink" href="#exercise" title="Permanent link">&para;</a></h2>
 <p>A project: BAC = $1,200,000, PV = $500,000, EV = $410,000, AC = $470,000.</p>
 <ol>

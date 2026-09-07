@@ -1008,6 +1008,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#how-it-actually-works" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How It Actually Works
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#exercise" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -2283,6 +2294,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#how-it-actually-works" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How It Actually Works
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#exercise" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -2526,6 +2548,25 @@ manual recalculation under time pressure. Using Jira for the relocation, or
 MS Project for the sprint-based software work, would have been a mismatch
 in both directions: forcing a schedule-first tool onto iterative work, or an
 issue-tracker onto a project that lives and dies by its critical path.</p>
+<h2 id="how-it-actually-works">How It Actually Works<a class="headerlink" href="#how-it-actually-works" title="Permanent link">&para;</a></h2>
+<p>A Kanban board (Jira's core model) is a physical implementation of <strong>Little's
+Law</strong>: <code>Average items in progress = Arrival rate × Average time in system</code>,
+rearranged as <code>Cycle time = WIP / Throughput</code>. This is why WIP limits — a
+column configured to hold at most 3 cards — mechanically <em>reduce</em> the average
+time any single item takes to finish, even though it feels counterintuitive
+to cap capacity: with throughput held roughly constant, cutting WIP directly
+cuts cycle time by the same ratio. A burndown chart (used across all three
+tools) is just a plot of <code>Remaining work = Total scope − Cumulative work
+completed</code>, and its slope is your actual velocity; the chart's real value is
+that a <em>straight</em> declining line predicts an on-time finish, while a line
+that flattens mid-sprint is showing new work being added at roughly the same
+rate as work being completed — scope creep visible as a graph shape, not a
+verbal report. MS Project's Gantt view is the forward/backward-pass network
+from Module 4 rendered automatically: every time you change one task's
+duration, the tool re-runs the topological sort across the whole dependency
+graph and re-draws every downstream bar — which is also why a badly-modeled
+dependency (missing or wrongly-typed) silently produces a wrong critical
+path that looks perfectly plausible on the chart.</p>
 <h2 id="exercise">Exercise<a class="headerlink" href="#exercise" title="Permanent link">&para;</a></h2>
 <p>For the project you've been developing through this level's exercises,
 decide which of the three tools (Jira, MS Project, or Asana) would fit it

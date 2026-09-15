@@ -1,3 +1,7 @@
+---
+description: "Project Lifecycle Basics — Every project — regardless of industry, size, or delivery approach — moves through the same four broad phases: Initiation…"
+---
+
 # 02 · Project Lifecycle Basics
 
 Every project — regardless of industry, size, or delivery approach — moves

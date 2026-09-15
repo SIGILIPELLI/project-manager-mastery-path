@@ -1,3 +1,7 @@
+---
+description: "Risk Management Deep Dive — Level 1 introduced the risk register and the probability/impact grid. That is qualitative risk analysis, and it answers 'which…"
+---
+
 # 04 · Risk Management Deep Dive
 
 Level 1 introduced the risk register and the probability/impact grid. That is

@@ -1,3 +1,7 @@
+---
+description: "Building PM Culture & Capability — Templates and gates (Level 3, module 05) standardise what gets produced. They don't produce good project managers.…"
+---
+
 # 06 · Building PM Culture & Capability
 
 Templates and gates (Level 3, module 05) standardise *what* gets produced.

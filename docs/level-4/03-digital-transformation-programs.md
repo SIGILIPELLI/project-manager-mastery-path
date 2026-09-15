@@ -1,3 +1,7 @@
+---
+description: "Digital Transformation Programs — A digital transformation program is not a large IT project wearing a bigger title — it's a program whose primary…"
+---
+
 # 03 · Digital Transformation Programs
 
 A digital transformation program is not a large IT project wearing a bigger

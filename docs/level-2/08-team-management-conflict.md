@@ -1,3 +1,7 @@
+---
+description: "Team Management & Conflict Resolution — Every other module in this level deals with numbers on a page — floats, cost indices, expected monetary values.…"
+---
+
 # 08 · Team Management & Conflict Resolution
 
 Every other module in this level deals with numbers on a page — floats, cost

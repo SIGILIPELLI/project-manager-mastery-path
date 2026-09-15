@@ -1,3 +1,7 @@
+---
+description: "Risk Management Basics — A risk is an uncertain event or condition that, if it occurs, has an effect — positive or negative — on at least one project…"
+---
+
 # 06 · Risk Management Basics
 
 A **risk** is an uncertain event or condition that, if it occurs, has an

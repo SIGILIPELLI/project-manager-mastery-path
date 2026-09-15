@@ -1,3 +1,7 @@
+---
+description: "Leading PMOs — Running a PMO (Level 3, module 05) is about the mechanics — templates, gates, dashboards. Leading one is a different job: you're…"
+---
+
 # 01 · Leading PMOs
 
 Running a PMO (Level 3, module 05) is about the mechanics — templates,

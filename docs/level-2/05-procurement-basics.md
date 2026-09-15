@@ -1,3 +1,7 @@
+---
+description: "Procurement Basics — Most projects buy something — contractors, software licences, hardware, professional services. The moment money crosses an…"
+---
+
 # 05 · Procurement Basics
 
 Most projects buy something — contractors, software licences, hardware,

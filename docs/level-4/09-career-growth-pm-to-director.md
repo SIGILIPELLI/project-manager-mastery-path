@@ -1,3 +1,7 @@
+---
+description: "Career Growth: PM to Program/Portfolio Director — The jump from Senior Project Manager to Program or Portfolio Director is not a bigger version of the…"
+---
+
 # 09 · Career Growth: PM to Program/Portfolio Director
 
 The jump from Senior Project Manager to Program or Portfolio Director is not

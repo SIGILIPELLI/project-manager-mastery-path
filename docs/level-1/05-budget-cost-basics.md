@@ -1,3 +1,7 @@
+---
+description: "Budget & Cost Basics — A schedule tells you when work happens; a budget tells you what it costs to make it happen. Cost management is the discipline of…"
+---
+
 # 05 · Budget & Cost Basics
 
 A schedule tells you *when* work happens; a budget tells you *what it costs*

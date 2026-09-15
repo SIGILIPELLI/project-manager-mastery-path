@@ -1,3 +1,7 @@
+---
+description: "Quality Management Basics — Quality is the most commonly misunderstood knowledge area in project management, because the everyday meaning of the word…"
+---
+
 # 06 · Quality Management Basics
 
 Quality is the most commonly misunderstood knowledge area in project

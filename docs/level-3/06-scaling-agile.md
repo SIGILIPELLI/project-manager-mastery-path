@@ -1,3 +1,7 @@
+---
+description: "Scaling Agile (SAFe, LeSS) — One Scrum team of 7 people can self-organise its way past most coordination problems by talking to each other daily. Eight…"
+---
+
 # 06 · Scaling Agile (SAFe, LeSS)
 
 One Scrum team of 7 people can self-organise its way past most coordination

@@ -1,3 +1,7 @@
+---
+description: "Advanced Risk & Issue Management — Basic risk management identifies risks and rates them high/medium/low. Advanced risk management quantifies them, so…"
+---
+
 # 03 · Advanced Risk & Issue Management
 
 Basic risk management identifies risks and rates them high/medium/low.

@@ -1,3 +1,7 @@
+---
+description: "Advanced Stakeholder Management — Basic stakeholder management plots people on a power/interest grid once at project start and calls it done. Advanced…"
+---
+
 # 07 · Advanced Stakeholder Management
 
 Basic stakeholder management plots people on a power/interest grid once at

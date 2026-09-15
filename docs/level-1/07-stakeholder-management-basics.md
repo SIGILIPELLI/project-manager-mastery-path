@@ -1,3 +1,7 @@
+---
+description: "Stakeholder Management Basics — A stakeholder is anyone who can affect, or be affected by, the project — a far broader group than just 'the people on the…"
+---
+
 # 07 · Stakeholder Management Basics
 
 A **stakeholder** is anyone who can affect, or be affected by, the project —

@@ -1,3 +1,7 @@
+---
+description: "Enterprise Portfolio Management — The failure mode unique to this scale: a BU's internally-consistent scoring model (module 02, Level 3) ranks its own…"
+---
+
 # 02 · Enterprise Portfolio Management
 
 Level 3's portfolio module scored and selected a handful of candidate

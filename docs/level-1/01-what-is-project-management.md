@@ -1,3 +1,7 @@
+---
+description: "What Is Project Management? — A project is a temporary endeavor with a defined start and end, undertaken to create a unique product, service, or result.…"
+---
+
 # 01 · What Is Project Management?
 
 A **project** is a temporary endeavor with a defined start and end, undertaken

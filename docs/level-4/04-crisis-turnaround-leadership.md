@@ -1,3 +1,7 @@
+---
+description: "Crisis & Turnaround Project Leadership — Project recovery (Level 3, module 08) is a process for a project that's significantly off track but still…"
+---
+
 # 04 · Crisis & Turnaround Project Leadership
 
 Project recovery (Level 3, module 08) is a process for a project that's

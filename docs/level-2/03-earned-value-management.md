@@ -1,3 +1,7 @@
+---
+description: "Earned Value Management Basics — Ask a project manager 'are we on budget?' and the weak answer compares money spent against money planned. That comparison…"
+---
+
 # 03 · Earned Value Management Basics
 
 Ask a project manager "are we on budget?" and the weak answer compares money

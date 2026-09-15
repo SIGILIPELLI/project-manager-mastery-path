@@ -1,3 +1,7 @@
+---
+description: "AI Tools for Project Management — AI tools are genuinely useful in project management for a narrow, specific set of tasks — and actively dangerous when…"
+---
+
 # 07 · AI Tools for Project Management
 
 AI tools are genuinely useful in project management for a narrow, specific

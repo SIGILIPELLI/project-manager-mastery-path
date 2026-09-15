@@ -1,3 +1,7 @@
+---
+description: "Communication Plans — Identifying stakeholders and understanding their power and interest (Module 7) only pays off if it's turned into a concrete plan for…"
+---
+
 # 08 · Communication Plans
 
 Identifying stakeholders and understanding their power and interest

@@ -1,3 +1,7 @@
+---
+description: "PMO Fundamentals — A Project Management Office (PMO) exists to solve a problem that shows up only once an organisation runs more than a handful of…"
+---
+
 # 05 · PMO Fundamentals
 
 A Project Management Office (PMO) exists to solve a problem that shows up

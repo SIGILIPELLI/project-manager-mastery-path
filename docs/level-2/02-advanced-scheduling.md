@@ -1,3 +1,7 @@
+---
+description: "Advanced Scheduling — Level 1 covered building a task list, sequencing it, and drawing a Gantt chart. That gets you a schedule. It does not tell you which…"
+---
+
 # 02 · Advanced Scheduling
 
 Level 1 covered building a task list, sequencing it, and drawing a Gantt

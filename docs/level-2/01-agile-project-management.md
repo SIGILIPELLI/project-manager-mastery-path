@@ -1,3 +1,7 @@
+---
+description: "Agile Project Management — Level 1 described the predictive (waterfall) lifecycle: define scope up front, plan the whole schedule, then execute against…"
+---
+
 # 01 · Agile Project Management
 
 Level 1 described the **predictive** (waterfall) lifecycle: define scope up

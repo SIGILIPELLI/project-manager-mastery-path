@@ -1,3 +1,7 @@
+---
+description: "Global/Distributed Team Project Management — A project team spread across four time zones isn't a co-located team with a video call added — the…"
+---
+
 # 08 · Global/Distributed Team Project Management
 
 A project team spread across four time zones isn't a co-located team with a

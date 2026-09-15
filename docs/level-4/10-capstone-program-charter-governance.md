@@ -1,3 +1,7 @@
+---
+description: "Capstone — Full Program Charter & Governance Model — This capstone integrates the entire course: a full program charter and governance model for a…"
+---
+
 # 10 · Capstone — Full Program Charter & Governance Model
 
 This capstone integrates the entire course: a full program charter and

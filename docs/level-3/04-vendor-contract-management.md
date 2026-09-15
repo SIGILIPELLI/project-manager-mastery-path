@@ -1,3 +1,7 @@
+---
+description: "Vendor & Contract Management — Most projects past a certain size depend on at least one external vendor, and a vendor relationship managed only at…"
+---
+
 # 04 · Vendor & Contract Management
 
 Most projects past a certain size depend on at least one external vendor,

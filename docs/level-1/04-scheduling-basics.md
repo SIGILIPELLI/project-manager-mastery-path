@@ -1,3 +1,7 @@
+---
+description: "Scheduling Basics — Once scope is broken down into work packages (Module 3), the next question is: in what order, and by when? Scheduling turns a list of…"
+---
+
 # 04 · Scheduling Basics
 
 Once scope is broken down into work packages ([Module 3](03-scope-management-basics.md)),

@@ -1,3 +1,7 @@
+---
+description: "Tools Overview (Jira, MS Project, Asana) — Every module so far has built a framework — a scope statement, a schedule, a budget, a risk register, a…"
+---
+
 # 09 · Tools Overview (Jira, MS Project, Asana)
 
 Every module so far has built a framework — a scope statement, a schedule,

@@ -1,3 +1,7 @@
+---
+description: "Portfolio Management Basics — A portfolio is the full set of projects and programs an organisation is funding at once — often unrelated to each other…"
+---
+
 # 02 · Portfolio Management Basics
 
 A portfolio is the full set of projects and programs an organisation is

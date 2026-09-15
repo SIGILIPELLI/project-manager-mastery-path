@@ -1,3 +1,7 @@
+---
+description: "Project — Full Project Charter & Schedule — This capstone project pulls together every framework from Level 1 into one coherent deliverable for a single…"
+---
+
 # 10 · Project — Full Project Charter & Schedule
 
 This capstone project pulls together every framework from Level 1 into one

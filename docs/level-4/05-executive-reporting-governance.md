@@ -1,3 +1,7 @@
+---
+description: "Executive Reporting & Governance — A status report written for a project team and one written for a steering committee are different documents, not the…"
+---
+
 # 05 · Executive Reporting & Governance
 
 A status report written for a project team and one written for a steering

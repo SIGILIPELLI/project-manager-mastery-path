@@ -1,3 +1,7 @@
+---
+description: "Change Management for Projects — 'Change management' means two genuinely different disciplines, and conflating them causes real damage. Change control is…"
+---
+
 # 07 · Change Management for Projects
 
 "Change management" means two genuinely different disciplines, and conflating

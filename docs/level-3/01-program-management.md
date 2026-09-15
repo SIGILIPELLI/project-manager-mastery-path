@@ -1,3 +1,7 @@
+---
+description: "Program Management — A project delivers an output. A program delivers a set of related outputs that only add up to something when managed together. If you…"
+---
+
 # 01 · Program Management
 
 A project delivers an output. A **program** delivers a set of related outputs

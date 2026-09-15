@@ -1,3 +1,7 @@
+---
+description: "Reporting & Dashboards — Most project reports fail in the same way: they describe activity rather than answer a question. Three pages of 'the team…"
+---
+
 # 09 · Reporting & Dashboards
 
 Most project reports fail in the same way: they describe activity rather than

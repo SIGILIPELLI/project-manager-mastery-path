@@ -1,3 +1,7 @@
+---
+description: "Project Recovery — A project in trouble doesn't announce it clearly — it shows up as a status report that's still green two weeks before an obviously…"
+---
+
 # 08 · Project Recovery
 
 A project in trouble doesn't announce it clearly — it shows up as a status

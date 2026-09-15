@@ -1,3 +1,7 @@
+---
+description: "Advanced Metrics (EVM Deep Dive & Forecasting) — Level 2 introduced CPI and SPI as a health check. This module goes further: the full family of EVM…"
+---
+
 # 09 · Advanced Metrics (EVM Deep Dive & Forecasting)
 
 Level 2 introduced CPI and SPI as a health check. This module goes further:

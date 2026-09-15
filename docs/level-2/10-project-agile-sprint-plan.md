@@ -1,3 +1,7 @@
+---
+description: "Project — Agile Plan with Sprint Schedule — Everything in Level 2 has been taught one discipline at a time: sprints in one module, float in another…"
+---
+
 # 10 · Project — Agile Plan with Sprint Schedule
 
 Everything in Level 2 has been taught one discipline at a time: sprints in

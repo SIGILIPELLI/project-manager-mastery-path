@@ -1,3 +1,7 @@
+---
+description: "Scope Management Basics — The exclusions section deserves special attention: most scope disputes happen not because something was never discussed, but…"
+---
+
 # 03 · Scope Management Basics
 
 **Scope** is the sum of all the work — and only the work — required to

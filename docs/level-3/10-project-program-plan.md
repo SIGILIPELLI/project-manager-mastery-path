@@ -1,3 +1,7 @@
+---
+description: "Project — Program Plan for 3 Related Projects — This is the Level 3 capstone project: build a full program plan for three related projects, applying every…"
+---
+
 # 10 · Project — Program Plan for 3 Related Projects
 
 This is the Level 3 capstone project: build a full program plan for three

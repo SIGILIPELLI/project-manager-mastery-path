@@ -143,6 +143,12 @@ risks) are managed by containment and recovery cost *after* the fact, which
 is why an issue's true cost is always closer to its full impact than its
 pre-event EMV — the probability term has collapsed to 1.
 
+## 🔀 Related lessons on other tracks
+
+- [Agile — 04 · Risk Management Across SDLC Phases](https://sigilipelli.github.io/agile-mastery-path/level-3/04-risk-management-sdlc/)
+- [AI Tools — 03 · Advanced Vendor Risk Management for AI Tools](https://sigilipelli.github.io/ai-tools-mastery-path/level-4/03-advanced-vendor-risk-management/)
+- [Cybersecurity — 09 · Security Leadership & Risk Management](https://sigilipelli.github.io/cybersecurity-mastery-path/level-4/09-security-leadership-risk-management/)
+
 ## Exercise
 
 For the project you've been building through this level's exercises,

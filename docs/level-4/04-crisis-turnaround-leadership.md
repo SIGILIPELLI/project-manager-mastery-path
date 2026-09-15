@@ -107,6 +107,10 @@ fixing only the trigger leaves the necessary condition in place and
 statistically guarantees a different trigger produces the same class of
 incident later.
 
+## 🔀 Related lessons on other tracks
+
+- [Servant Leadership — 04 · Leading Through Crisis with Servant Leadership](https://sigilipelli.github.io/servant-leadership-mastery-path/level-4/04-leading-through-crisis/)
+
 ## Exercise
 
 Your organisation's customer-facing app goes down completely during a major

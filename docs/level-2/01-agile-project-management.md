@@ -192,6 +192,10 @@ gaps between values widen with size specifically because uncertainty about a
 13-point item is genuinely larger in absolute terms than uncertainty about a
 2-point item, even if both feel equally "estimated."
 
+## 🔀 Related lessons on other tracks
+
+- [Agile — 08 · Agile Contracts & Vendor Management](https://sigilipelli.github.io/agile-mastery-path/level-3/08-agile-contracts-vendor-management/)
+
 ## Exercise
 
 Take a project you know and set it up as an agile delivery. (1) Write a

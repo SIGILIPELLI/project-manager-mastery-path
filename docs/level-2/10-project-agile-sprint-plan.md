@@ -275,6 +275,10 @@ Module 1's variance discussion) silently understates the $/point rate and
 makes every later sprint look artificially over budget on the dashboard even
 when nothing has actually changed about team performance.
 
+## 🔀 Related lessons on other tracks
+
+- [Agile — 10 · Capstone — Run a Mock 1-Week Sprint Plan](https://sigilipelli.github.io/agile-mastery-path/level-1/10-capstone-mock-sprint-plan/)
+
 ## Exercise
 
 Build the same four connected artefacts for a project of your own — reuse the

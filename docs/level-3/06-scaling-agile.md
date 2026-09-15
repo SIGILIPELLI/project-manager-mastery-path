@@ -119,6 +119,10 @@ coordination *load* itself (shared backlog, shared sprint, fewer cross-team
 dependencies by design) — same underlying combinatorial problem, two
 opposite mechanical solutions.
 
+## 🔀 Related lessons on other tracks
+
+- [Agile — 01 · Scaling Frameworks Overview (SAFe, LeSS, Nexus)](https://sigilipelli.github.io/agile-mastery-path/level-3/01-scaling-frameworks-overview/)
+
 ## Exercise
 
 A 60-person product organisation runs 6 Scrum teams. Three teams share one

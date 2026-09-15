@@ -251,6 +251,10 @@ same mode applied to the wrong source type has opposite effects — Forcing a
 values-based conflict entrenches both sides, while Forcing a pure
 resource-scheduling conflict often resolves it in minutes.
 
+## 🔀 Related lessons on other tracks
+
+- [Servant Leadership — 02 · Conflict Resolution as a Servant Leader](https://sigilipelli.github.io/servant-leadership-mastery-path/level-2/02-conflict-resolution/)
+
 ## Exercise
 
 Work with a real team — current or recent — throughout.

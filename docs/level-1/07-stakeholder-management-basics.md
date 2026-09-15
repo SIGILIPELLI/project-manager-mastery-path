@@ -119,6 +119,11 @@ reinforcement (a Supportive sponsor who hears nothing for three months drifts
 toward Neutral), which is the real reason a stakeholder register needs
 scheduled re-assessment, not a one-time pass at kickoff.
 
+## 🔀 Related lessons on other tracks
+
+- [Data Science — 07 · Cross-Functional Stakeholder Management](https://sigilipelli.github.io/data-science-mastery-path/level-4/07-stakeholder-management/)
+- [Product Lead — Advanced Stakeholder Management (Board-Level)](https://sigilipelli.github.io/product-lead-mastery-path/level-3/09-board-level-stakeholder-management/)
+
 ## Exercise
 
 For the project you've been building through this level's exercises, list

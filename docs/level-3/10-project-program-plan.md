@@ -145,3 +145,7 @@ signal about that vendor's other in-flight deliverables, not a one-off.
 - Draft the stage-gate criteria (module 05) this program would need to pass
   at a G3 mid-point gate, using the actual week-11 numbers above to decide
   whether it would pass or be sent back for a recovery plan.
+
+## 🔀 Related lessons on other tracks
+
+- [Agile — 10 · Project — Scaled Program Delivery Plan](https://sigilipelli.github.io/agile-mastery-path/level-3/10-project-scaled-program-plan/)

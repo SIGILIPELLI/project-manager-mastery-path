@@ -107,6 +107,10 @@ committing 100% of capital up front whenever the project's true value has
 significant variance — the option value comes specifically from being able
 to walk away cheaply if the first stage reveals bad news.
 
+## 🔀 Related lessons on other tracks
+
+- [AI Manager — 03 · AI Portfolio Management](https://sigilipelli.github.io/ai-manager-mastery-path/level-4/03-ai-portfolio-management/)
+
 ## Exercise
 
 Three business units report their top project scores: BU X scores its top

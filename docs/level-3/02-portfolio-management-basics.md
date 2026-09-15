@@ -139,6 +139,10 @@ reason portfolio tools use the value-density heuristic rather than solving
 for a global optimum — it's a fast, usually-near-optimal approximation, not
 a shortcut taken out of laziness.
 
+## 🔀 Related lessons on other tracks
+
+- [AI Manager — 03 · AI Portfolio Management](https://sigilipelli.github.io/ai-manager-mastery-path/level-4/03-ai-portfolio-management/)
+
 ## Exercise
 
 Score two new candidate projects using the weighted model above (alignment

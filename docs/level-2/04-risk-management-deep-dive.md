@@ -173,6 +173,12 @@ direction nobody can detect from the register itself — only a calibration
 exercise (asking "if we ran this exact risk 10 times, how many times would it
 occur?") catches it.
 
+## 🔀 Related lessons on other tracks
+
+- [Agile — 04 · Risk Management Across SDLC Phases](https://sigilipelli.github.io/agile-mastery-path/level-3/04-risk-management-sdlc/)
+- [AI Tools — 03 · Advanced Vendor Risk Management for AI Tools](https://sigilipelli.github.io/ai-tools-mastery-path/level-4/03-advanced-vendor-risk-management/)
+- [Cybersecurity — 09 · Security Leadership & Risk Management](https://sigilipelli.github.io/cybersecurity-mastery-path/level-4/09-security-leadership-risk-management/)
+
 ## Exercise
 
 Build a full risk analysis for a project of your own.

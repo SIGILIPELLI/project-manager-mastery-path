@@ -140,6 +140,12 @@ risk 10 times" calibration check from Level 2 Module 4, applied
 retrospectively against real drawdown data instead of prospectively against
 intuition.
 
+## 🔀 Related lessons on other tracks
+
+- [Agile — 04 · Risk Management Across SDLC Phases](https://sigilipelli.github.io/agile-mastery-path/level-3/04-risk-management-sdlc/)
+- [AI Tools — 03 · Advanced Vendor Risk Management for AI Tools](https://sigilipelli.github.io/ai-tools-mastery-path/level-4/03-advanced-vendor-risk-management/)
+- [Cybersecurity — 09 · Security Leadership & Risk Management](https://sigilipelli.github.io/cybersecurity-mastery-path/level-4/09-security-leadership-risk-management/)
+
 ## Exercise
 
 A project has three risks: (1) 25% probability, $80,000 impact; (2) 50%

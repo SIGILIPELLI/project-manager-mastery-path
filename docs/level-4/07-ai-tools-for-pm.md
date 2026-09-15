@@ -100,6 +100,10 @@ them without a validation step, which is exactly the same "garbage in,
 silently compounds" mechanism as a miscalibrated risk register or an
 uncorrected estimating bias from Level 3 Module 8.
 
+## 🔀 Related lessons on other tracks
+
+- [AI Tools — 03 · Advanced Vendor Risk Management for AI Tools](https://sigilipelli.github.io/ai-tools-mastery-path/level-4/03-advanced-vendor-risk-management/)
+
 ## Exercise
 
 Your PMO is evaluating whether to let an AI tool auto-generate the weekly

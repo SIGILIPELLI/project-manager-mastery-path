@@ -82,6 +82,12 @@ competency development — a director candidate whose actual weekly calendar
 still resembles a senior PM's calendar has a diagnosable, closeable gap, not
 an unfixable trait.
 
+## 🔀 Related lessons on other tracks
+
+- [Agile — 09 · Career Growth: Scrum Master to Agile Coach/Director](https://sigilipelli.github.io/agile-mastery-path/level-4/09-career-growth-scrum-master-to-coach/)
+- [Product Manager — 09 · Career Growth: IC to Director/VP](https://sigilipelli.github.io/product-manager-mastery-path/level-4/09-career-growth-ic-to-director-vp/)
+- [AI Manager — 09 · Career Growth: AI Manager to Chief AI Officer](https://sigilipelli.github.io/ai-manager-mastery-path/level-4/09-career-growth-ai-manager-to-caio/)
+
 ## Exercise
 
 You are a Senior PM being considered for a Program Director role. In your

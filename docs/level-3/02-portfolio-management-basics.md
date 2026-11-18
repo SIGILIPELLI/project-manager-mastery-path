@@ -141,7 +141,7 @@ a shortcut taken out of laziness.
 
 ## 🔀 Related lessons on other tracks
 
-- [AI Manager — 03 · AI Portfolio Management](https://sigilipelli.github.io/ai-manager-mastery-path/level-4/03-ai-portfolio-management/)
+- [AI Manager — 03 · AI Portfolio Management](https://learnmasterypath.com/ai-manager-mastery-path/level-4/03-ai-portfolio-management/)
 
 ## Exercise
 

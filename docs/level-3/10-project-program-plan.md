@@ -148,4 +148,4 @@ signal about that vendor's other in-flight deliverables, not a one-off.
 
 ## 🔀 Related lessons on other tracks
 
-- [Agile — 10 · Project — Scaled Program Delivery Plan](https://sigilipelli.github.io/agile-mastery-path/level-3/10-project-scaled-program-plan/)
+- [Agile — 10 · Project — Scaled Program Delivery Plan](https://learnmasterypath.com/agile-mastery-path/level-3/10-project-scaled-program-plan/)

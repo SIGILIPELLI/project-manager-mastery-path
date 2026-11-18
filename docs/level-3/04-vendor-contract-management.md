@@ -159,9 +159,9 @@ terms) protects the buyer's interest for the rest of the engagement.
 
 ## 🔀 Related lessons on other tracks
 
-- [Agile — 08 · Agile Contracts & Vendor Management](https://sigilipelli.github.io/agile-mastery-path/level-3/08-agile-contracts-vendor-management/)
-- [AI Manager — 08 · Vendor & Partner Management for AI](https://sigilipelli.github.io/ai-manager-mastery-path/level-3/08-vendor-partner-management/)
-- [AI Tools — 03 · Advanced Vendor Risk Management for AI Tools](https://sigilipelli.github.io/ai-tools-mastery-path/level-4/03-advanced-vendor-risk-management/)
+- [Agile — 08 · Agile Contracts & Vendor Management](https://learnmasterypath.com/agile-mastery-path/level-3/08-agile-contracts-vendor-management/)
+- [AI Manager — 08 · Vendor & Partner Management for AI](https://learnmasterypath.com/ai-manager-mastery-path/level-3/08-vendor-partner-management/)
+- [AI Tools — 03 · Advanced Vendor Risk Management for AI Tools](https://learnmasterypath.com/ai-tools-mastery-path/level-4/03-advanced-vendor-risk-management/)
 
 ## Exercise
 

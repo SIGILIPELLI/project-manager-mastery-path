@@ -102,7 +102,7 @@ uncorrected estimating bias from Level 3 Module 8.
 
 ## 🔀 Related lessons on other tracks
 
-- [AI Tools — 03 · Advanced Vendor Risk Management for AI Tools](https://sigilipelli.github.io/ai-tools-mastery-path/level-4/03-advanced-vendor-risk-management/)
+- [AI Tools — 03 · Advanced Vendor Risk Management for AI Tools](https://learnmasterypath.com/ai-tools-mastery-path/level-4/03-advanced-vendor-risk-management/)
 
 ## Exercise
 

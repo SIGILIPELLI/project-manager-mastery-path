@@ -117,7 +117,7 @@ the filtering added no value and the reporting channel failed at its one job.
 
 ## 🔀 Related lessons on other tracks
 
-- [Product Manager — 05 · Executive Communication & Board Reporting](https://sigilipelli.github.io/product-manager-mastery-path/level-4/05-executive-communication-board-reporting/)
+- [Product Manager — 05 · Executive Communication & Board Reporting](https://learnmasterypath.com/product-manager-mastery-path/level-4/05-executive-communication-board-reporting/)
 
 ## Exercise
 

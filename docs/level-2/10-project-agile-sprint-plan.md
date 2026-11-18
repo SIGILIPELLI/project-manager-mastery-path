@@ -277,7 +277,7 @@ when nothing has actually changed about team performance.
 
 ## 🔀 Related lessons on other tracks
 
-- [Agile — 10 · Capstone — Run a Mock 1-Week Sprint Plan](https://sigilipelli.github.io/agile-mastery-path/level-1/10-capstone-mock-sprint-plan/)
+- [Agile — 10 · Capstone — Run a Mock 1-Week Sprint Plan](https://learnmasterypath.com/agile-mastery-path/level-1/10-capstone-mock-sprint-plan/)
 
 ## Exercise
 

@@ -131,8 +131,8 @@ new connections forming, not just individual sentiment scores.
 
 ## 🔀 Related lessons on other tracks
 
-- [Data Science — 07 · Cross-Functional Stakeholder Management](https://sigilipelli.github.io/data-science-mastery-path/level-4/07-stakeholder-management/)
-- [Product Lead — Advanced Stakeholder Management (Board-Level)](https://sigilipelli.github.io/product-lead-mastery-path/level-3/09-board-level-stakeholder-management/)
+- [Data Science — 07 · Cross-Functional Stakeholder Management](https://learnmasterypath.com/data-science-mastery-path/level-4/07-stakeholder-management/)
+- [Product Lead — Advanced Stakeholder Management (Board-Level)](https://learnmasterypath.com/product-lead-mastery-path/level-3/09-board-level-stakeholder-management/)
 
 ## Exercise
 

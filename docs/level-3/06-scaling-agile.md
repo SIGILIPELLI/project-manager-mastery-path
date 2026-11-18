@@ -121,7 +121,7 @@ opposite mechanical solutions.
 
 ## 🔀 Related lessons on other tracks
 
-- [Agile — 01 · Scaling Frameworks Overview (SAFe, LeSS, Nexus)](https://sigilipelli.github.io/agile-mastery-path/level-3/01-scaling-frameworks-overview/)
+- [Agile — 01 · Scaling Frameworks Overview (SAFe, LeSS, Nexus)](https://learnmasterypath.com/agile-mastery-path/level-3/01-scaling-frameworks-overview/)
 
 ## Exercise
 

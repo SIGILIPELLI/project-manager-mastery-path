@@ -109,7 +109,7 @@ to walk away cheaply if the first stage reveals bad news.
 
 ## 🔀 Related lessons on other tracks
 
-- [AI Manager — 03 · AI Portfolio Management](https://sigilipelli.github.io/ai-manager-mastery-path/level-4/03-ai-portfolio-management/)
+- [AI Manager — 03 · AI Portfolio Management](https://learnmasterypath.com/ai-manager-mastery-path/level-4/03-ai-portfolio-management/)
 
 ## Exercise
 

@@ -194,7 +194,7 @@ gaps between values widen with size specifically because uncertainty about a
 
 ## 🔀 Related lessons on other tracks
 
-- [Agile — 08 · Agile Contracts & Vendor Management](https://sigilipelli.github.io/agile-mastery-path/level-3/08-agile-contracts-vendor-management/)
+- [Agile — 08 · Agile Contracts & Vendor Management](https://learnmasterypath.com/agile-mastery-path/level-3/08-agile-contracts-vendor-management/)
 
 ## Exercise
 

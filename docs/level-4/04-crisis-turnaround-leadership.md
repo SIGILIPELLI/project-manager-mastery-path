@@ -109,7 +109,7 @@ incident later.
 
 ## 🔀 Related lessons on other tracks
 
-- [Servant Leadership — 04 · Leading Through Crisis with Servant Leadership](https://sigilipelli.github.io/servant-leadership-mastery-path/level-4/04-leading-through-crisis/)
+- [Servant Leadership — 04 · Leading Through Crisis with Servant Leadership](https://learnmasterypath.com/servant-leadership-mastery-path/level-4/04-leading-through-crisis/)
 
 ## Exercise
 

@@ -253,7 +253,7 @@ resource-scheduling conflict often resolves it in minutes.
 
 ## 🔀 Related lessons on other tracks
 
-- [Servant Leadership — 02 · Conflict Resolution as a Servant Leader](https://sigilipelli.github.io/servant-leadership-mastery-path/level-2/02-conflict-resolution/)
+- [Servant Leadership — 02 · Conflict Resolution as a Servant Leader](https://learnmasterypath.com/servant-leadership-mastery-path/level-2/02-conflict-resolution/)
 
 ## Exercise
 

@@ -175,9 +175,9 @@ occur?") catches it.
 
 ## 🔀 Related lessons on other tracks
 
-- [Agile — 04 · Risk Management Across SDLC Phases](https://sigilipelli.github.io/agile-mastery-path/level-3/04-risk-management-sdlc/)
-- [AI Tools — 03 · Advanced Vendor Risk Management for AI Tools](https://sigilipelli.github.io/ai-tools-mastery-path/level-4/03-advanced-vendor-risk-management/)
-- [Cybersecurity — 09 · Security Leadership & Risk Management](https://sigilipelli.github.io/cybersecurity-mastery-path/level-4/09-security-leadership-risk-management/)
+- [Agile — 04 · Risk Management Across SDLC Phases](https://learnmasterypath.com/agile-mastery-path/level-3/04-risk-management-sdlc/)
+- [AI Tools — 03 · Advanced Vendor Risk Management for AI Tools](https://learnmasterypath.com/ai-tools-mastery-path/level-4/03-advanced-vendor-risk-management/)
+- [Cybersecurity — 09 · Security Leadership & Risk Management](https://learnmasterypath.com/cybersecurity-mastery-path/level-4/09-security-leadership-risk-management/)
 
 ## Exercise
 

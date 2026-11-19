@@ -70,7 +70,7 @@ of Level 1 introduces dedicated PM tools (Jira, Microsoft Project, Asana) as
 optional next steps once you understand the underlying concepts they
 automate.
 
-🎥 **Prefer video?** Watch the [Mastery Path video series](https://youtube.com/@learnmasterypath) on YouTube — Shorts and full walkthroughs of these lessons.
+🎥 **Prefer video?** Watch the [Mastery Path video series](https://youtube.com/@learnmasterypath) on YouTube — Shorts and full walkthroughs of these lessons. [▶ Subscribe free](https://www.youtube.com/@learnmasterypath?sub_confirmation=1)
 
 ## More from the Mastery Path series
 

@@ -1,3 +1,7 @@
+---
+description: "Level 2 (Intermediate) of the free Project Manager Mastery Path: Agile Project Management, Advanced Scheduling, Earned Value Management Basics, Risk…"
+---
+
 # Level 2 · Intermediate
 
 ## Modules

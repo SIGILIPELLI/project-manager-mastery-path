@@ -1,3 +1,7 @@
+---
+description: "Level 1 (Entry) of the free Project Manager Mastery Path: What Is Project Management?, Project Lifecycle Basics, Scope Management Basics, Scheduling Basics…"
+---
+
 # Level 1 · Entry
 
 ## Modules

@@ -1,3 +1,7 @@
+---
+description: "Level 3 (Advanced) of the free Project Manager Mastery Path: Program Management, Portfolio Management Basics, Advanced Risk & Issue Management, Vendor &…"
+---
+
 # Level 3 · Advanced
 
 ## Modules

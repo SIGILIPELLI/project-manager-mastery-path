@@ -1,3 +1,7 @@
+---
+description: "Level 4 (Master) of the free Project Manager Mastery Path: Leading PMOs, Enterprise Portfolio Management, Digital Transformation Programs, Crisis &…"
+---
+
 # Level 4 · Master
 
 ## Modules

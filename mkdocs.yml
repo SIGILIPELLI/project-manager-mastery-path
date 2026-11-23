@@ -80,8 +80,8 @@ not_in_nav: |
 
 nav:
   - Home: index.md
-  - "💼 Interview Questions": interview-questions.md
-  - "📋 Cheat Sheet": cheat-sheet.md
+  - Interview Questions: interview-questions.md
+  - Cheat Sheet: cheat-sheet.md
   - "Level 1 · Entry":
       - Overview: level-1/index.md
       - "01 · What Is Project Management?": level-1/01-what-is-project-management.md
@@ -130,5 +130,5 @@ nav:
       - "08 · Global/Distributed Team Project Management": level-4/08-global-distributed-teams.md
       - "09 · Career Growth: PM to Program/Portfolio Director": level-4/09-career-growth-pm-to-director.md
       - "10 · Capstone — Full Program Charter & Governance Model": level-4/10-capstone-program-charter-governance.md
-  - "🎯 Final Quiz": quiz.md
+  - Final Quiz: quiz.md
 

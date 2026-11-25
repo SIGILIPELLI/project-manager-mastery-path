@@ -33,9 +33,8 @@ can adapt directly to a real project.
   adapt them directly to your own project.
 - Each topic ends with an **Exercise** — a practical deliverable you produce
   yourself, the same way you would on a real assignment.
-- Each level ends with a project that combines everything learned in that
-  level into a single real artifact (a charter, a sprint plan, a program
-  plan, a governance model).
+- Levels 1–3 each end with a project that combines everything learned in that level into a single real artifact (a charter, a sprint plan, a program
+  plan, a governance model), and Level 4 ends with the course capstone.
 - Use the search bar (top of the page) to jump straight to a topic.
 
 Start here → [Level 1 · Entry](level-1/index.md)
